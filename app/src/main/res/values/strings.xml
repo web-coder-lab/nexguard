@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NEXGUARD</string>
+    <string name="app_tagline">Notification Health Monitor</string>
+    <string name="notification_listener_service_label">NEXGUARD Notification Service</string>
+</resources>

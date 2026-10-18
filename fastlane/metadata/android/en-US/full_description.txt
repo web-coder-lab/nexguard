@@ -1,0 +1,3 @@
+NEXGUARD records the notification events Android delivers to your phone, checks the background settings that can block apps, and guides you to the exact fix for your phone brand. Everything stays on your device.
+
+It cannot stop Android or a phone maker from killing other apps, restart force-stopped apps, or recover a notification that never reached your phone.
