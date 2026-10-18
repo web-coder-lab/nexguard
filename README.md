@@ -47,7 +47,17 @@ NEXGUARD is honest about its limits:
 
 ### Verify the download
 
-SHA-256 of `NEXGUARD-1.0.0.apk` and the signing certificate fingerprint will be published in the GitHub Release notes after the signed release is approved.
+SHA-256 of `NEXGUARD-1.0.0.apk`:
+
+```
+342f4afea7595f29532a34d0a1a6bcc8b3333049c7365ebfba4aa8a49f084bde
+```
+
+Signing certificate SHA-256 fingerprint:
+
+```
+ea104132b89fcb66aa04e1f8d7390712523c5fae544a8da7e781b085557db17c
+```
 
 Check on a computer:
 
