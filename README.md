@@ -1,151 +1,176 @@
 # NEXGUARD
 
-**Notification health monitor for Android.** NEXGUARD records the notification events Android delivers to your phone, checks the background settings that can block apps, and guides you to the exact fix for your phone brand. Everything stays on your device.
+**On-device notification health monitor for Android.**
 
-> Status: **v1.0.2, F-Droid readiness candidate.** Free and open source. Tested on a real phone (see [Tested on](#tested-on)).
+NEXGUARD records notification events that Android delivers to your phone, checks the local settings that can block apps in the background, and shows phone-brand guidance for the settings you can change. History and preferences stay on the device.
 
-## Why I built this
+NEXGUARD cannot stop Android or a phone maker from killing other apps, restart a force-stopped app, or recover a notification that never reached the phone.
 
-On my own phone, every restart killed the apps running in the background. After a reboot I stopped receiving important calls, messages and emails, and I did not know why. Many people with aggressive battery managers have the same problem. NEXGUARD helps you see what is happening and fix the settings you can control.
+Current release: **1.0.2**. Free and open source under GPL-3.0-only.
 
-— Syed Muhammad Hussain Shah, Pakistan
+## Features
 
-## What it does
+These features are implemented in the current source:
 
-- Records when a notification is posted or removed, for the apps you choose (app, time, event type).
-- Keeps a local history with a retention period you set (for example 7 days) and a "Clear event log" button.
-- Two privacy modes: **metadata only** (recommended) or metadata plus titles. The full message text is not stored.
-- Checks notification access and battery-optimization state, and shows plain statuses.
-- Phone-specific guidance for OPPO/Realme, Samsung, Xiaomi, Vivo, Huawei, OnePlus, Motorola and Pixel.
-- Schedules background checks again after your phone restarts (Android WorkManager).
-- More than 20 interface languages, with right-to-left layouts. Not every translation has been reviewed by a native speaker.
-- Dark, light and black themes, reduced-motion and haptic switches.
+- Records when a notification is posted or removed for the apps you choose.
+- Stores a local history in a Room database, with a configurable retention period. The default is 7 days.
+- Provides a clear-history action.
+- Supports two privacy modes: metadata only, or metadata plus notification titles. Full message text is not stored.
+- Checks notification-listener access and battery-optimization state.
+- Shows manufacturer-specific guidance for Samsung, Xiaomi, OPPO/Realme, Vivo, OnePlus, Huawei, Motorola, and Pixel.
+- Schedules diagnostic work again after reboot with WorkManager.
+- Lets you exclude apps from monitoring.
+- Includes language selection, theme settings, and an onboarding permission flow.
+- Ships interface strings for English, Simplified Chinese, Traditional Chinese, Russian, Portuguese (Brazil), Urdu, Arabic, Hindi, Spanish, French, German, Turkish, Indonesian, Japanese, and Korean.
 
-## What it does not do
+## Requirements
 
-NEXGUARD is honest about its limits:
-
-- It **cannot** stop Android or a phone maker from killing other apps.
-- It **cannot** restart apps that were force-stopped.
-- It **cannot** recover a notification that never reached your phone.
-- It only sees notifications Android delivers to it. Where Android does not say, NEXGUARD shows *Unknown*.
-
-## Screenshots
-
-The six app screenshots are not in the repository yet. They will be added under `docs/screenshots/` when provided. No placeholder images are used.
-
-## Download
-
-| Source | Status |
+| Item | Value |
 |---|---|
-| GitHub Releases | [Latest release](https://github.com/web-coder-lab/nexguard/releases/latest) |
-| Website | Coming soon |
-| F-Droid | Coming soon |
+| Package | `io.github.web_coder_lab.nexguard` |
+| Minimum Android | 8.0 (API 26) |
+| Target / compile SDK | 36 |
+| Notification access | Required for event recording |
+| Network | Not used for upload. The app requests network-state access only to report connectivity in diagnostics. |
 
-### Install
+There is no account system, cloud sync, analytics SDK, or crash-reporting service in the app source.
 
-1. Download `NEXGUARD-1.0.1.apk` from the latest release.
-2. Check the file (see below).
-3. Open it. If Android asks, allow installs from your browser or file manager.
-4. Open NEXGUARD and follow the setup: grant notification access, allow its own alerts, choose apps.
+## Installation
+
+1. Download `NEXGUARD-1.0.2.apk` from the [GitHub Releases](https://github.com/web-coder-lab/nexguard/releases) page.
+2. On the phone, allow installation from your browser or file manager if Android asks.
+3. Open the APK and install it.
+4. Open NEXGUARD and grant notification access when prompted.
+5. Review battery guidance for your phone brand.
+
+### Upgrade
+
+Install the newer APK over the existing app. Android allows the upgrade when the signing certificate matches the installed copy.
+
+If Android reports a signature mismatch, the installed copy was signed with a different key. Uninstalling the old copy is then required, and its local history will be removed. Do not uninstall unless you accept that loss.
 
 ### Verify the download
 
-SHA-256 of `NEXGUARD-1.0.1.apk`:
-
-```
-977e57bb6fe8395353afc055b9d2c28090de5c3e7cc284e1661b7b2a0e33d424
-```
-
-Signing certificate SHA-256 fingerprint:
-
-```
-ea104132b89fcb66aa04e1f8d7390712523c5fae544a8da7e781b085557db17c
-```
-
-Check on a computer:
-
-```bash
-sha256sum NEXGUARD-1.0.1.apk
-apksigner verify --print-certs NEXGUARD-1.0.1.apk
-```
+Compare the SHA-256 on the release page with the file you downloaded before installing.
 
 ## Permissions
 
-| Permission | Why |
+| Permission | Why it is requested |
 |---|---|
-| Notification access | Required to receive notification events. |
-| Post notifications | Lets NEXGUARD show its own diagnostic alerts. |
-| Request ignore battery optimizations | Lets you ask Android to exempt NEXGUARD. |
-| Receive boot completed | Schedules diagnostics again after a restart. |
-| Query all packages | Lists installed apps so you can choose which to monitor. |
-| Vibrate, wake lock, network state | Haptics and the background-work library. |
-
-NEXGUARD does **not** request the internet permission. Verify this against the manifest of the release you install.
+| `POST_NOTIFICATIONS` | Shows the app's own diagnostic notices on Android 13 and later. |
+| `RECEIVE_BOOT_COMPLETED` | Reschedules diagnostics after the phone restarts. |
+| `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` | Opens the system screen where you can exempt NEXGUARD from battery limits. |
+| `ACCESS_NETWORK_STATE` | Reads whether a network is available for the diagnostics screen. It is not used to upload data. |
+| `VIBRATE` | Supports local alert feedback. |
+| `QUERY_ALL_PACKAGES` | Lists installed apps so you can choose which ones to monitor. |
+| Notification listener binding | Required by Android so the app can observe posted and removed notifications. |
 
 ## Privacy
 
-- History is stored only on your device.
-- No accounts, no analytics, no ads, no cloud upload.
-- You choose the retention period and can clear history at any time.
+- Notification history is stored in the app's local Room database.
+- Preferences are stored in local DataStore.
+- In the default privacy mode, the app stores metadata such as app, time, and event type.
+- Titles are stored only if you explicitly choose that mode.
+- Full notification message text is not stored.
+- The app does not include an internet permission and does not send history to a server.
+- Backup is disabled in the manifest.
 
-## Tested on
+## Background limits
 
-| Phone | Software | Result |
-|---|---|---|
-| OPPO CPH1909, 4 GB RAM | ColorOS 5.2.1, Android 8.1.0 | v1.0.0 tested by the developer |
+Phone makers can still stop background work. NEXGUARD can detect some local restriction states and point you to the relevant settings, but it cannot override a manufacturer battery manager.
 
-Other phones and Android versions are untested. Reports are welcome in [Issues](https://github.com/web-coder-lab/nexguard/issues).
-
-## Coming soon
-
-No dates are confirmed. These are plans, not promises.
-
-- A real self-test (post a test notification and confirm it was received and saved)
-- A restart checklist that reminds you to open your important apps
-- An "important apps" list with a quiet-app alert
-- A restart log
-- Exportable diagnostic report
+After a reboot, WorkManager is scheduled again. That does not guarantee that every other app will keep running.
 
 ## Build from source
 
-Requirements: Android Studio (current stable) or JDK 17 and the Android SDK.
+Requirements:
+
+- JDK 17
+- Android SDK with platform 36 and build-tools 36.0.0
+- The Gradle wrapper included in this repository
 
 ```bash
-git clone https://github.com/web-coder-lab/nexguard.git
-cd nexguard
-./gradlew assembleDebug
+export ANDROID_HOME="$HOME/android-sdk"
+export ANDROID_SDK_ROOT="$ANDROID_HOME"
+chmod +x ./gradlew
+./gradlew test lint assembleRelease
 ```
 
-Release builds are signed in CI. See `.github/workflows/release.yml`. Never commit a keystore or passwords.
+A signed release build also needs these environment variables:
 
-## Contributing
+- `KEYSTORE_PATH`
+- `KEYSTORE_PASSWORD`
+- `KEY_ALIAS`
+- `KEY_PASSWORD`
 
-Bug reports and pull requests are welcome. Please open an issue first for larger changes. By contributing you agree that your contribution is released under the project's license.
+Do not commit a keystore or passwords. `.gitignore` already excludes `*.jks`, `*.keystore`, `keystore.properties`, and `.env`.
+
+## Testing
+
+```bash
+./gradlew test
+./gradlew lint
+./gradlew assembleRelease
+```
+
+Unit tests cover domain and preference logic. Instrumentation tests require a device or emulator and are not run by the default GitHub release job.
+
+## Troubleshooting
+
+- **No events recorded:** open Android notification access settings and enable NEXGUARD.
+- **Events stop after reboot:** check battery restrictions for NEXGUARD and the apps you care about.
+- **An app is missing from the list:** confirm it is installed and not excluded in NEXGUARD.
+- **Install blocked:** allow the file source, then retry the official APK.
+- **Build fails on a small machine:** the release workflow uses a GitHub-hosted runner. Local machines with less than about 4 GB RAM can fail during dexing.
+
+## Known limitations
+
+- NEXGUARD observes notifications Android already delivered. It cannot recover a notification that was dropped before delivery.
+- It cannot force-start another app or defeat every vendor background restriction.
+- Diagnostics are guidance, not a guarantee that a setting change will fix every missed alert.
+- Manufacturer guidance is based on current known settings paths and can change with a phone update.
+
+## Security
+
+Report vulnerabilities by email to dickvoice734@gmail.com. Include the version, steps to reproduce, and impact. Do not open a public issue for an unfixed vulnerability, and do not include another person's notification content.
+
+See [SECURITY.md](SECURITY.md).
+
+## Bugs, features, and contributions
+
+- Bugs and feature requests: https://github.com/web-coder-lab/nexguard/issues
+- Pull requests are welcome for bug fixes, tests, and documentation.
+- Keep changes focused. Do not add analytics, accounts, or network upload.
+
+## Project layout
+
+```text
+app/src/main/java/io/github/web_coder_lab/nexguard/
+  notification/     listener, diagnostics, alerts
+  background/       reboot receiver and WorkManager
+  data/             Room database and preferences
+  domain/           models
+  ui/               Compose screens
+  localization/     interface strings
+```
+
+## Downloads
+
+Official releases: https://github.com/web-coder-lab/nexguard/releases
+
+The current release is **v1.0.2**.
+
+## Version history
+
+- **1.0.2** — namespace cleanup, unused Google Services removal, documentation update.
+- **1.0.1** — package name finalized and signed release published.
+- **1.0.0** — first signed release.
 
 ## License
 
-NEXGUARD is released under the **GNU General Public License v3.0 only** (`GPL-3.0-only`). See [LICENSE](LICENSE).
-
-In short: you may use, study and modify it. If you distribute a modified version, you must keep the copyright notices, release your source under the same license, and state your changes.
-
-The **NEXGUARD name, logo and icon are not licensed for reuse.** A fork must use a different name and icon and must not present itself as the official app.
-
-Copyright (C) 2026 Syed Muhammad Hussain Shah.
+GPL-3.0-only. See [LICENSE](LICENSE).
 
 ## Author
 
-NEXGUARD is created and maintained by **Syed Muhammad Hussain Shah**, from Pakistan. I built it after my own phone kept killing background apps on every restart, and I test every release on my own device. I plan to complete the app over the next few updates.
-
-## Contact
-
-- Email: dickvoice734@gmail.com
-- WeChat:
-
-  ![WeChat QR](docs/wechat-qr.png)
-
-- Issues: [GitHub Issues](https://github.com/web-coder-lab/nexguard/issues)
-
-## Credits
-
-Built with Kotlin, Jetpack Compose, Room and WorkManager.
+Syed Muhammad Hussain Shah, Pakistan  
+dickvoice734@gmail.com
