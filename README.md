@@ -2,7 +2,7 @@
 
 **Notification health monitor for Android.** NEXGUARD records the notification events Android delivers to your phone, checks the background settings that can block apps, and guides you to the exact fix for your phone brand. Everything stays on your device.
 
-> Status: **v1.0.0, first release.** Free and open source. Tested on a real phone (see [Tested on](#tested-on)).
+> Status: **v1.0.1, final package release.** Free and open source. Tested on a real phone (see [Tested on](#tested-on)).
 
 ## Why I built this
 
@@ -30,6 +30,10 @@ NEXGUARD is honest about its limits:
 - It **cannot** recover a notification that never reached your phone.
 - It only sees notifications Android delivers to it. Where Android does not say, NEXGUARD shows *Unknown*.
 
+## Screenshots
+
+The six app screenshots are not in the repository yet. They will be added under `docs/screenshots/` when provided. No placeholder images are used.
+
 ## Download
 
 | Source | Status |
@@ -40,30 +44,18 @@ NEXGUARD is honest about its limits:
 
 ### Install
 
-1. Download `NEXGUARD-1.0.0.apk` from the latest release.
+1. Download `NEXGUARD-1.0.1.apk` from the latest release.
 2. Check the file (see below).
 3. Open it. If Android asks, allow installs from your browser or file manager.
 4. Open NEXGUARD and follow the setup: grant notification access, allow its own alerts, choose apps.
 
 ### Verify the download
 
-SHA-256 of `NEXGUARD-1.0.0.apk`:
-
-```
-342f4afea7595f29532a34d0a1a6bcc8b3333049c7365ebfba4aa8a49f084bde
-```
-
-Signing certificate SHA-256 fingerprint:
-
-```
-ea104132b89fcb66aa04e1f8d7390712523c5fae544a8da7e781b085557db17c
-```
-
-Check on a computer:
+SHA-256 and the signing certificate fingerprint are published on the [v1.0.1 release](https://github.com/web-coder-lab/nexguard/releases/tag/v1.0.1) after the signed build finishes.
 
 ```bash
-sha256sum NEXGUARD-1.0.0.apk
-apksigner verify --print-certs NEXGUARD-1.0.0.apk
+sha256sum NEXGUARD-1.0.1.apk
+apksigner verify --print-certs NEXGUARD-1.0.1.apk
 ```
 
 ## Permissions
@@ -136,11 +128,12 @@ NEXGUARD is created and maintained by **Syed Muhammad Hussain Shah**, from Pakis
 ## Contact
 
 - Email: dickvoice734@gmail.com
-- WeChat: scan the QR in `docs/wechat-qr.jpg`
+- WeChat:
+
+  ![WeChat QR](docs/wechat-qr.png)
+
 - Issues: [GitHub Issues](https://github.com/web-coder-lab/nexguard/issues)
 
 ## Credits
 
 Built with Kotlin, Jetpack Compose, Room and WorkManager.
-
-# CI trigger
