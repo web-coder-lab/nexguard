@@ -51,7 +51,19 @@ The six app screenshots are not in the repository yet. They will be added under 
 
 ### Verify the download
 
-SHA-256 and the signing certificate fingerprint are published on the [v1.0.1 release](https://github.com/web-coder-lab/nexguard/releases/tag/v1.0.1) after the signed build finishes.
+SHA-256 of `NEXGUARD-1.0.1.apk`:
+
+```
+977e57bb6fe8395353afc055b9d2c28090de5c3e7cc284e1661b7b2a0e33d424
+```
+
+Signing certificate SHA-256 fingerprint:
+
+```
+ea104132b89fcb66aa04e1f8d7390712523c5fae544a8da7e781b085557db17c
+```
+
+Check on a computer:
 
 ```bash
 sha256sum NEXGUARD-1.0.1.apk
