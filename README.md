@@ -132,3 +132,5 @@ NEXGUARD is created and maintained by **Syed Muhammad Hussain Shah**, from Pakis
 ## Credits
 
 Built with Kotlin, Jetpack Compose, Room and WorkManager.
+
+# CI trigger
