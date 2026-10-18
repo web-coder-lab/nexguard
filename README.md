@@ -2,7 +2,7 @@
 
 **Notification health monitor for Android.** NEXGUARD records the notification events Android delivers to your phone, checks the background settings that can block apps, and guides you to the exact fix for your phone brand. Everything stays on your device.
 
-> Status: **v1.0.1, final package release.** Free and open source. Tested on a real phone (see [Tested on](#tested-on)).
+> Status: **v1.0.2, F-Droid readiness candidate.** Free and open source. Tested on a real phone (see [Tested on](#tested-on)).
 
 ## Why I built this
 
