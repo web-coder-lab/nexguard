@@ -157,6 +157,8 @@ class UserPreferencesRepository(private val context: Context) {
             preferences[PreferencesKeys.KEY_SYSTEM_DEFAULT_APPLIED] = true
         }
     }
+
+    suspend fun updateLastDiagnostic(timestamp: Long, summary: String) {
         context.guardianDataStore.edit { preferences ->
             preferences[PreferencesKeys.KEY_LAST_DIAGNOSTIC_TS] = timestamp
             preferences[PreferencesKeys.KEY_LAST_DIAGNOSTIC_SUMMARY] = summary
