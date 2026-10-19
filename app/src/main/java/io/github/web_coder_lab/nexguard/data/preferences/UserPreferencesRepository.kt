@@ -16,7 +16,6 @@ import io.github.web_coder_lab.nexguard.domain.model.GuardianThemeMode
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map
-import java.io.File
 import java.io.IOException
 
 val Context.guardianDataStore: DataStore<Preferences> by preferencesDataStore(name = "guardian_preferences")
@@ -146,12 +145,16 @@ class UserPreferencesRepository(private val context: Context) {
         }
     }
 
-    suspend fun applySystemAppDefaultsIfNeeded(systemPackages: Set<String>) {
-        val datastoreFile = File(context.filesDir, "datastore/guardian_preferences.preferences_pb")
-        val existingInstall = datastoreFile.exists()
+    suspend fun applySystemAppDefaultsIfNeeded(
+        systemPackages: Set<String>,
+        firstInstallTime: Long,
+        lastUpdateTime: Long
+    ) {
         context.guardianDataStore.edit { preferences ->
-            if (preferences[PreferencesKeys.KEY_SYSTEM_DEFAULT_APPLIED] == true) return@edit
-            if (!existingInstall) {
+            val alreadyApplied = preferences[PreferencesKeys.KEY_SYSTEM_DEFAULT_APPLIED] == true
+            if (alreadyApplied) return@edit
+            val freshInstall = SystemAppDefaultPolicy.isFreshInstall(firstInstallTime, lastUpdateTime)
+            if (freshInstall) {
                 preferences[PreferencesKeys.KEY_EXCLUDED_PACKAGES] = systemPackages
             }
             preferences[PreferencesKeys.KEY_SYSTEM_DEFAULT_APPLIED] = true
@@ -177,5 +180,20 @@ class UserPreferencesRepository(private val context: Context) {
             preferences.remove(PreferencesKeys.KEY_EXCLUDED_PACKAGES)
             // Language & setupCompleted are kept so user doesn't lose their selected locale or onboarding state!
         }
+    }
+}
+
+internal object SystemAppDefaultPolicy {
+    fun isFreshInstall(firstInstallTime: Long, lastUpdateTime: Long): Boolean {
+        return firstInstallTime > 0L && firstInstallTime == lastUpdateTime
+    }
+
+    fun shouldExcludeSystemApps(
+        defaultsAlreadyApplied: Boolean,
+        firstInstallTime: Long,
+        lastUpdateTime: Long
+    ): Boolean {
+        if (defaultsAlreadyApplied) return false
+        return isFreshInstall(firstInstallTime, lastUpdateTime)
     }
 }

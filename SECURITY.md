@@ -5,9 +5,6 @@
 | Version | Supported |
 |---|---|
 | 1.0.3 | Yes |
-| 1.0.2 | Yes |
-| 1.0.1 | Yes |
-| 1.0.0 | Yes |
 
 ## Reporting a vulnerability
 

@@ -138,7 +138,12 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                         if (appInfo.packageName == context.packageName) return@mapNotNull null
                         if ((appInfo.flags and ApplicationInfo.FLAG_SYSTEM) != 0) appInfo.packageName else null
                     }.toSet()
-                    preferencesRepository.applySystemAppDefaultsIfNeeded(systemPackages)
+                    val packageInfo = pm.getPackageInfo(context.packageName, 0)
+                    preferencesRepository.applySystemAppDefaultsIfNeeded(
+                        systemPackages,
+                        packageInfo.firstInstallTime,
+                        packageInfo.lastUpdateTime
+                    )
                     val excludedAfterDefault = preferencesRepository.preferencesFlow.first().excludedPackages
 
                     val appList = packages.mapNotNull { appInfo ->
