@@ -6,7 +6,7 @@ NEXGUARD records notification events that Android delivers to your phone, checks
 
 NEXGUARD cannot stop Android or a phone maker from killing other apps, restart a force-stopped app, or recover a notification that never reached the phone.
 
-Current release: **1.0.2**. Free and open source under GPL-3.0-only.
+Current release: **1.0.3**. Free and open source under GPL-3.0-only.
 
 ## Features
 
@@ -23,6 +23,16 @@ These features are implemented in the current source:
 - Includes language selection, theme settings, and an onboarding permission flow.
 - Ships interface strings for English, Simplified Chinese, Traditional Chinese, Russian, Portuguese (Brazil), Urdu, Arabic, Hindi, Spanish, French, German, Turkish, Indonesian, Japanese, and Korean.
 
+## Tested on
+
+OPPO CPH1909, ColorOS 5.2.1, Android 8.1.0.
+
+## Screenshots
+
+Real screenshots are not included in this repository yet. Do not treat any older image as a current 1.0.3 screenshot.
+
+WeChat QR: ![WeChat QR](docs/wechat-qr.png)
+
 ## Requirements
 
 | Item | Value |
@@ -37,7 +47,7 @@ There is no account system, cloud sync, analytics SDK, or crash-reporting servic
 
 ## Installation
 
-1. Download `NEXGUARD-1.0.2.apk` from the [GitHub Releases](https://github.com/web-coder-lab/nexguard/releases) page.
+1. Download `NEXGUARD-1.0.3.apk` from the [GitHub Releases](https://github.com/web-coder-lab/nexguard/releases) page after the 1.0.3 release is published.
 2. On the phone, allow installation from your browser or file manager if Android asks.
 3. Open the APK and install it.
 4. Open NEXGUARD and grant notification access when prompted.
@@ -52,6 +62,12 @@ If Android reports a signature mismatch, the installed copy was signed with a di
 ### Verify the download
 
 Compare the SHA-256 on the release page with the file you downloaded before installing.
+
+Signing certificate SHA-256:
+
+`ea104132b89fcb66aa04e1f8d7390712523c5fae544a8da7e781b085557db17c`
+
+The 1.0.3 APK SHA-256 is not available until the signed release is published.
 
 ## Permissions
 
@@ -158,10 +174,11 @@ app/src/main/java/io/github/web_coder_lab/nexguard/
 
 Official releases: https://github.com/web-coder-lab/nexguard/releases
 
-The current release is **v1.0.2**.
+The current release candidate is **v1.0.3**. The signed APK SHA-256 will be published with the GitHub Release after approval.
 
 ## Version history
 
+- **1.0.3** — wording cleanup, system apps off by default for new installs, backup exclusions, About section.
 - **1.0.2** — namespace cleanup, unused Google Services removal, documentation update.
 - **1.0.1** — package name finalized and signed release published.
 - **1.0.0** — first signed release.

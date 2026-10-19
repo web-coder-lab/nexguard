@@ -57,7 +57,7 @@ object DiagnosticsEngine {
                 DiagnosticItem(
                     id = "listener_permission",
                     title = "Notification Access Missing",
-                    description = "NexGuard cannot monitor notifications from your installed apps without Android notification access.",
+                    description = "NEXGUARD cannot monitor notifications from your installed apps without Android notification access.",
                     severity = DiagnosticSeverity.ALERT,
                     actionType = DiagnosticActionType.OPEN_NOTIFICATION_LISTENER
                 )
@@ -115,20 +115,20 @@ object DiagnosticsEngine {
                 DiagnosticItem(
                     id = "battery_optimization",
                     title = "Battery Exemption Active",
-                    description = "Unrestricted background execution enabled for NexGuard.",
+                    description = "Unrestricted background execution enabled for NEXGUARD.",
                     severity = DiagnosticSeverity.GOOD
                 )
             )
         }
 
-        // 4. NexGuard Diagnostic Alerts
+        // 4. NEXGUARD Diagnostic Alerts
         val isAlertGranted = isPostNotificationGranted(context)
         if (!isAlertGranted) {
             items.add(
                 DiagnosticItem(
                     id = "post_notifications",
                     title = "Diagnostic Alerts Disabled",
-                    description = "NexGuard will not be able to send you notification status alerts.",
+                    description = "NEXGUARD will not be able to send you notification status alerts.",
                     severity = DiagnosticSeverity.INFO,
                     actionType = DiagnosticActionType.OPEN_NOTIFICATION_PERMISSION
                 )
@@ -138,7 +138,7 @@ object DiagnosticsEngine {
                 DiagnosticItem(
                     id = "post_notifications",
                     title = "Diagnostic Alerts Enabled",
-                    description = "NexGuard can notify you of critical background delivery disruptions.",
+                    description = "NEXGUARD can notify you of critical background delivery disruptions.",
                     severity = DiagnosticSeverity.GOOD
                 )
             )

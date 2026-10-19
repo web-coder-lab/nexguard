@@ -22,7 +22,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -133,6 +133,12 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                     val pm = context.packageManager
                     val packages = pm.getInstalledApplications(PackageManager.GET_META_DATA)
                     val excluded = preferences.value.excludedPackages
+                    val systemPackages = packages.mapNotNull { appInfo ->
+                        if (appInfo.packageName == context.packageName) return@mapNotNull null
+                        if ((appInfo.flags and ApplicationInfo.FLAG_SYSTEM) != 0) appInfo.packageName else null
+                    }.toSet()
+                    preferencesRepository.applySystemAppDefaultsIfNeeded(systemPackages)
+                    val excludedAfterDefault = preferencesRepository.preferencesFlow.first().excludedPackages
 
                     val appList = packages.mapNotNull { appInfo ->
                         // Skip self
@@ -151,7 +157,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                             appName = appName,
                             icon = icon,
                             isSystemApp = isSystem,
-                            isMonitored = !excluded.contains(appInfo.packageName)
+                            isMonitored = !excludedAfterDefault.contains(appInfo.packageName)
                         )
                     }.sortedBy { it.appName.lowercase() }
 

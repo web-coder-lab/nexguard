@@ -16,6 +16,7 @@ import io.github.web_coder_lab.nexguard.domain.model.GuardianThemeMode
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map
+import java.io.File
 import java.io.IOException
 
 val Context.guardianDataStore: DataStore<Preferences> by preferencesDataStore(name = "guardian_preferences")
@@ -33,6 +34,7 @@ class UserPreferencesRepository(private val context: Context) {
         val KEY_ALERT_PREFERENCE = stringPreferencesKey("alert_preference")
         val KEY_RETENTION_DAYS = intPreferencesKey("retention_days")
         val KEY_EXCLUDED_PACKAGES = stringSetPreferencesKey("excluded_packages")
+        val KEY_SYSTEM_DEFAULT_APPLIED = booleanPreferencesKey("system_default_applied")
         val KEY_LAST_DIAGNOSTIC_TS = longPreferencesKey("last_diagnostic_ts")
         val KEY_LAST_DIAGNOSTIC_SUMMARY = stringPreferencesKey("last_diagnostic_summary")
     }
@@ -144,7 +146,17 @@ class UserPreferencesRepository(private val context: Context) {
         }
     }
 
-    suspend fun updateLastDiagnostic(timestamp: Long, summary: String) {
+    suspend fun applySystemAppDefaultsIfNeeded(systemPackages: Set<String>) {
+        val datastoreFile = File(context.filesDir, "datastore/guardian_preferences.preferences_pb")
+        val existingInstall = datastoreFile.exists()
+        context.guardianDataStore.edit { preferences ->
+            if (preferences[PreferencesKeys.KEY_SYSTEM_DEFAULT_APPLIED] == true) return@edit
+            if (!existingInstall) {
+                preferences[PreferencesKeys.KEY_EXCLUDED_PACKAGES] = systemPackages
+            }
+            preferences[PreferencesKeys.KEY_SYSTEM_DEFAULT_APPLIED] = true
+        }
+    }
         context.guardianDataStore.edit { preferences ->
             preferences[PreferencesKeys.KEY_LAST_DIAGNOSTIC_TS] = timestamp
             preferences[PreferencesKeys.KEY_LAST_DIAGNOSTIC_SUMMARY] = summary

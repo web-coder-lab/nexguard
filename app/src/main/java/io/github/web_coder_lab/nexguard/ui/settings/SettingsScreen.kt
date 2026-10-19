@@ -27,7 +27,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Apps
 import androidx.compose.material.icons.filled.BatterySaver
 import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.DeleteSweep
+import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.NotificationsActive
 import androidx.compose.material.icons.filled.Palette
@@ -64,7 +64,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.web_coder_lab.nexguard.data.preferences.AlertPreference
-import io.github.web_coder_lab.nexguard.data.preferences.GuardianPreferences
+import io.github.web_coder_lab.nexguard.BuildConfig
 import io.github.web_coder_lab.nexguard.data.preferences.HistoryPrivacyMode
 import io.github.web_coder_lab.nexguard.domain.model.AppLanguage
 import io.github.web_coder_lab.nexguard.domain.model.DiagnosticReport
@@ -389,6 +389,41 @@ fun SettingsScreen(
                 )
             }
 
+            SettingsSection(title = strings.aboutTitle) {
+                SettingsClickableItem(
+                    icon = Icons.Default.Info,
+                    title = strings.aboutVersion,
+                    subtitle = "NEXGUARD ${BuildConfig.VERSION_NAME}",
+                    onClick = {},
+                    testTag = "settings_about_version"
+                )
+                SettingsClickableItem(
+                    icon = Icons.Default.Info,
+                    title = strings.aboutGitHub,
+                    subtitle = "github.com/web-coder-lab/nexguard",
+                    onClick = {
+                        context.startActivity(
+                            Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/web-coder-lab/nexguard"))
+                        )
+                    },
+                    testTag = "settings_about_github"
+                )
+                SettingsClickableItem(
+                    icon = Icons.Default.Info,
+                    title = strings.aboutLicense,
+                    subtitle = "GPL-3.0-only",
+                    onClick = {},
+                    testTag = "settings_about_license"
+                )
+                SettingsClickableItem(
+                    icon = Icons.Default.Info,
+                    title = "Open-source licenses",
+                    subtitle = strings.aboutOpenSource,
+                    onClick = {},
+                    testTag = "settings_about_licenses"
+                )
+            }
+
             // App Version Footer
             Box(
                 modifier = Modifier
@@ -397,7 +432,7 @@ fun SettingsScreen(
                 contentAlignment = Alignment.Center
             ) {
                 Text(
-                    text = "Guardian v1.0.0 • Local-First & Private",
+                    text = "NEXGUARD v${BuildConfig.VERSION_NAME} • Local-First & Private",
                     fontSize = 12.sp,
                     color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.4f)
                 )

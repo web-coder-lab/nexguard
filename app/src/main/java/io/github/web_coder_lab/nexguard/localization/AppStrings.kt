@@ -143,6 +143,11 @@ object AppStrings {
         val protectInBackground: String
         val stopProtection: String
         val protectionStartedNotice: String
+        val aboutTitle: String
+        val aboutVersion: String
+        val aboutGitHub: String
+        val aboutLicense: String
+        val aboutOpenSource: String
     }
 
     object EnglishStrings : Strings {
@@ -176,17 +181,17 @@ object AppStrings {
         override val statusProtectionActive = "Monitoring Active"
         override val statusProtectionActiveDesc = "Monitoring notification delivery in background"
         override val statusAccessRequired = "Access Required"
-        override val statusAccessRequiredDesc = "Grant notification access to activate protection"
+        override val statusAccessRequiredDesc = "Grant notification access to start monitoring"
         override val statusBatteryRestricted = "Battery Restricted"
         override val statusBatteryRestrictedDesc = "OS battery optimization may delay notifications"
-        override val statusMonitoringPaused = "Protection Paused"
+        override val statusMonitoringPaused = "Monitoring Paused"
         override val statusMonitoringPausedDesc = "Notification monitoring is paused by user"
         override val rowNotificationAccess = "Notification Access"
         override val rowMonitoringState = "Monitoring State"
         override val rowBatteryOptimization = "Battery Policy"
         override val rowMonitoredApps = "Monitored Apps"
         override val rowLastDiagnostic = "System Health"
-        override val actionEnableProtection = "Enable Protection"
+        override val actionEnableProtection = "Enable Monitoring"
         override val actionRunDiagnostics = "Run Diagnostics"
         override val actionManageApps = "Manage Apps"
         override val actionSettings = "Settings"
@@ -250,12 +255,17 @@ object AppStrings {
         override val allChecksPassed = "All systems functioning normally"
         override val issuesDetected = "Issues detected affecting reliability"
         override val manufacturerGuidance = "Device Manufacturer Advice"
-        override val protectionDetailsTitle = "Protection Status"
+        override val protectionDetailsTitle = "Monitoring Status"
         override val close = "Close"
-        override val startProtection = "Start Protection"
+        override val startProtection = "Start Monitoring"
         override val protectInBackground = "Start Monitoring"
         override val stopProtection = "Stop Monitoring"
         override val protectionStartedNotice = "NEXGUARD is now active and monitoring notifications in the background."
+        override val aboutTitle = "About"
+        override val aboutVersion = "Version"
+        override val aboutGitHub = "Source code"
+        override val aboutLicense = "License"
+        override val aboutOpenSource = "Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."
     }
 
     object ChineseSimpStrings : Strings by EnglishStrings {
