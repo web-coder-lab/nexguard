@@ -144,7 +144,7 @@ fun AppDetailsSheet(
             ) {
                 Column(modifier = Modifier.weight(1f)) {
                     Text(
-                        text = "Guardian Monitoring",
+                        text = "NEXGUARD Monitoring",
                         fontSize = 15.sp,
                         fontWeight = FontWeight.Bold,
                         color = MaterialTheme.colorScheme.onSurface
@@ -172,7 +172,7 @@ fun AppDetailsSheet(
 
             // Clarification Note
             Text(
-                text = "Guardian monitors delivery locally. Android controls notification permissions for this app in System Settings.",
+                text = "NEXGUARD monitors delivery locally. Android controls notification permissions for this app in System Settings.",
                 fontSize = 12.sp,
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
                 modifier = Modifier.fillMaxWidth()
