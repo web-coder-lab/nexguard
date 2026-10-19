@@ -27,6 +27,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Apps
 import androidx.compose.material.icons.filled.BatterySaver
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.DeleteSweep
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.NotificationsActive
@@ -65,6 +66,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.web_coder_lab.nexguard.data.preferences.AlertPreference
 import io.github.web_coder_lab.nexguard.BuildConfig
+import io.github.web_coder_lab.nexguard.data.preferences.GuardianPreferences
 import io.github.web_coder_lab.nexguard.data.preferences.HistoryPrivacyMode
 import io.github.web_coder_lab.nexguard.domain.model.AppLanguage
 import io.github.web_coder_lab.nexguard.domain.model.DiagnosticReport
