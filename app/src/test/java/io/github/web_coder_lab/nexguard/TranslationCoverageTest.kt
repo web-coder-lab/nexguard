@@ -90,14 +90,15 @@ class TranslationCoverageTest {
             statusKeys.forEach { key ->
                 val methodName = "get" + key.replaceFirstChar { it.uppercase() }
                 val value = strings.javaClass.methods.first { it.name == methodName }.invoke(strings) as String
+                val withoutBrand = value.replace("NEXGUARD", "", ignoreCase = true)
                 glossary.forEach { word ->
                     assertFalse(
                         "$language $key is identical to glossary word $word",
-                        value.equals(word, ignoreCase = true)
+                        withoutBrand.equals(word, ignoreCase = true)
                     )
                     assertFalse(
                         "$language $key contains glossary word $word: $value",
-                        value.contains(word, ignoreCase = true)
+                        withoutBrand.contains(word, ignoreCase = true)
                     )
                 }
             }
