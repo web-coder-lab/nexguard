@@ -4,10 +4,14 @@
         <exclude domain="database" path="guardian_database" />
         <exclude domain="database" path="guardian_database-shm" />
         <exclude domain="database" path="guardian_database-wal" />
+        <exclude domain="sharedpref" path="guardian_preferences" />
+        <exclude domain="file" path="datastore/guardian_preferences.preferences_pb" />
     </cloud-backup>
     <device-transfer>
         <exclude domain="database" path="guardian_database" />
         <exclude domain="database" path="guardian_database-shm" />
         <exclude domain="database" path="guardian_database-wal" />
+        <exclude domain="sharedpref" path="guardian_preferences" />
+        <exclude domain="file" path="datastore/guardian_preferences.preferences_pb" />
     </device-transfer>
 </data-extraction-rules>

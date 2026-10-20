@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,सूचना स्वास्थ्य मॉनिटर
+selectLanguage,Choose Language,भाषा चुनें
+selectLanguageDesc,Select your preferred language. You can change this anytime.,अपनी पसंदीदा भाषा चुनें। इसे बाद में बदल सकते हैं।
+searchLanguage,Search languages...,भाषाएँ खोजें...
+continueButton,Continue,जारी रखें
+nextButton,Next,आगे
+backButton,Back,वापस
+setupTitle,Permission Setup,अनुमति सेटअप
+setupSubtitle,Configure system access to keep notifications reliable,सूचनाएँ विश्वसनीय रखने के लिए सिस्टम पहुँच सेट करें
+permissionNotificationListener,Notification Access (Required),सूचना पहुँच (आवश्यक)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,NEXGUARD को ऐप्स की सूचना घटनाएँ स्थानीय रूप से देखने देता है ताकि डिलीवरी सीमाएँ पता चलें।
+permissionGuardianNotifications,NEXGUARD Alerts,NEXGUARD अलर्ट
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,पृष्ठभूमि डिलीवरी रुकने पर संक्षिप्त निदान सूचनाएँ पाएँ।
+permissionBatteryOptimization,Background Reliability,पृष्ठभूमि विश्वसनीयता
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,NEXGUARD को सख्त बैटरी नियमों से छूट दें ताकि यह जुड़ा रहे।
+permissionPrivacyNotice,Private & On-Device,निजी और डिवाइस पर
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,केवल मेटाडेटा। NEXGUARD संदेश पाठ सहेजता या भेजता नहीं।
+grantAccess,Grant,अनुमति दें
+granted,Active,सक्रिय
+notGranted,Action Needed,कार्रवाई चाहिए
+finishSetup,Complete Setup,सेटअप पूरा करें
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,जारी रखने से पहले आवश्यक अनुमतियाँ दें।
+allPermissionsRequired,Notification Access is required to continue.,जारी रखने के लिए सूचना पहुँच आवश्यक है।
+requiredPermissions,Required Permissions,आवश्यक अनुमतियाँ
+permissionDenied,Permission Denied,अनुमति अस्वीकृत
+missingNotificationAccess,Missing: Notification Access,गायब: सूचना पहुँच
+statusProtectionActive,Monitoring Active,निगरानी सक्रिय
+statusProtectionActiveDesc,Monitoring notification delivery in background,पृष्ठभूमि में सूचना डिलीवरी की निगरानी हो रही है
+statusAccessRequired,Access Required,पहुँच आवश्यक
+statusAccessRequiredDesc,Grant notification access to start monitoring,निगरानी शुरू करने के लिए सूचना पहुँच दें
+statusBatteryRestricted,Battery Restricted,बैटरी प्रतिबंधित
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,बैटरी ऑप्टिमाइज़ेशन सूचनाओं में देरी कर सकता है
+statusMonitoringPaused,Monitoring Paused,निगरानी रुकी हुई
+statusMonitoringPausedDesc,Notification monitoring is paused by user,उपयोगकर्ता ने सूचना निगरानी रोकी है
+rowNotificationAccess,Notification Access,सूचना पहुँच
+rowMonitoringState,Monitoring State,निगरानी स्थिति
+rowBatteryOptimization,Battery Policy,बैटरी नीति
+rowMonitoredApps,Monitored Apps,निगरानी वाले ऐप्स
+rowLastDiagnostic,System Health,सिस्टम स्वास्थ्य
+actionEnableProtection,Enable Monitoring,निगरानी चालू करें
+actionRunDiagnostics,Run Diagnostics,निदान चलाएँ
+actionManageApps,Manage Apps,ऐप्स प्रबंधित करें
+actionSettings,Settings,सेटिंग्स
+actionFixPermissions,Fix Permissions,अनुमतियाँ ठीक करें
+settingsTitle,Settings,सेटिंग्स
+sectionAppearance,Appearance,दिखावट
+themeBlack,Black,काला
+themeWhite,White,सफ़ेद
+themeGoldenBlack,Golden & Black,सुनहरा और काला
+themeGoldenWhite,Golden & White,सुनहरा और सफ़ेद
+reducedMotion,Reduced Motion,कम गति
+reducedMotionDesc,Disable non-essential pulse and transitions,अनावश्यक गति और बदलाव बंद करें
+hapticFeedback,Haptic Feedback,हैप्टिक फ़ीडबैक
+hapticFeedbackDesc,Vibrate on interactions and button taps,बटन दबाने पर कंपन
+sectionLanguage,Language,भाषा
+currentLanguage,App Language,ऐप भाषा
+sectionMonitoring,Notification Monitoring,सूचना निगरानी
+monitoringActive,Monitoring active,निगरानी सक्रिय
+monitoringActiveDesc,Active local listener for delivery status,डिलीवरी स्थिति के लिए स्थानीय श्रोता सक्रिय है
+monitoringUnavailable,Monitoring unavailable,निगरानी उपलब्ध नहीं
+historyPrivacy,History Privacy,इतिहास गोपनीयता
+historyPrivacyMetadata,Metadata only (Recommended),केवल मेटाडेटा (सुझाया गया)
+historyPrivacyOptIn,Metadata + Titles,मेटाडेटा + शीर्षक
+diagnosticAlerts,Alert Frequency,अलर्ट आवृत्ति
+alertsSilent,Silent Monitoring,शांत निगरानी
+alertsCriticalOnly,Critical Alerts Only,केवल महत्वपूर्ण अलर्ट
+alertsAll,All Diagnostic Alerts,सभी निदान अलर्ट
+sectionAppManagement,Installed Apps,इंस्टॉल किए ऐप्स
+sectionAppManagementDesc,Configure individual app monitoring rules,हर ऐप के निगरानी नियम सेट करें
+sectionBattery,Battery & Background,बैटरी और पृष्ठभूमि
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,डिवाइस की बैटरी सीमाएँ और OEM मार्गदर्शन देखें
+openBatterySettings,Open Battery Settings,बैटरी सेटिंग्स खोलें
+sectionDiagnostics,Diagnostics Engine,निदान
+runDiagnosticsNow,Run Full Check,पूर्ण जाँच चलाएँ
+sectionPrivacyStorage,Privacy & Local Data,गोपनीयता और स्थानीय डेटा
+eventRetention,Event History Retention,घटना इतिहास अवधि
+retention1Day,1 Day,1 दिन
+retention7Days,7 Days,7 दिन
+retention30Days,30 Days,30 दिन
+clearHistory,Clear Event Log,घटना लॉग साफ़ करें
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,क्या सूचना घटना इतिहास साफ़ करना है?
+resetSettings,Reset Preferences,प्राथमिकताएँ रीसेट करें
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,सभी NEXGUARD प्राथमिकताएँ डिफ़ॉल्ट पर लौटाएँ?
+cancel,Cancel,रद्द करें
+confirm,Confirm,पुष्टि करें
+save,Save,सहेजें
+changesSaved,Changes saved,बदलाव सहेजे गए
+changesNotSaved,Changes could not be saved,बदलाव सहेजे नहीं जा सके
+appManagerTitle,Manage Apps,ऐप्स प्रबंधित करें
+searchApps,Search apps...,ऐप्स खोजें...
+filterAll,All,सभी
+filterUser,User,उपयोगकर्ता
+filterSystem,System,सिस्टम
+monitoredStatus,Monitored,निगरानी में
+unmonitoredStatus,Excluded,बाहर
+openAppNotificationSettings,App Notification Settings,ऐप सूचना सेटिंग्स
+openAppDetailsSettings,System App Info,सिस्टम ऐप जानकारी
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,बेहतर विश्वसनीयता के लिए पृष्ठभूमि डेटा और बैटरी उपयोग अप्रतिबंधित रखें।
+noAppsFound,No applications match your filter,इस फ़िल्टर से कोई ऐप नहीं मिला
+diagnosticReportTitle,Diagnostic Results,निदान परिणाम
+allChecksPassed,All systems functioning normally,सभी सिस्टम सामान्य हैं
+issuesDetected,Issues detected affecting reliability,विश्वसनीयता प्रभावित करने वाली समस्याएँ मिलीं
+manufacturerGuidance,Device Manufacturer Advice,डिवाइस निर्माता सलाह
+protectionDetailsTitle,Monitoring Status,निगरानी स्थिति
+close,Close,बंद करें
+startProtection,Start Monitoring,निगरानी शुरू करें
+protectInBackground,Start Monitoring,निगरानी शुरू करें
+stopProtection,Stop Monitoring,निगरानी रोकें
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD अब सक्रिय है और पृष्ठभूमि में सूचनाओं की निगरानी कर रहा है।
+aboutTitle,About,परिचय
+aboutVersion,Version,संस्करण
+aboutGitHub,Source code,सोर्स कोड
+aboutLicense,License,लाइसेंस
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","ओपन-सोर्स लाइब्रेरी: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."

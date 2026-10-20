@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,ตัวตรวจสอบสถานะการแจ้งเตือน
+selectLanguage,Choose Language,เลือกภาษา
+selectLanguageDesc,Select your preferred language. You can change this anytime.,เลือกภาษา คุณเปลี่ยนทีหลังได้
+searchLanguage,Search languages...,ค้นหาภาษา...
+continueButton,Continue,ดำเนินการต่อ
+nextButton,Next,ถัดไป
+backButton,Back,กลับ
+setupTitle,Permission Setup,ตั้งค่าสิทธิ์
+setupSubtitle,Configure system access to keep notifications reliable,ตั้งค่าการเข้าถึงระบบเพื่อให้การแจ้งเตือนเชื่อถือได้
+permissionNotificationListener,Notification Access (Required),การเข้าถึงการแจ้งเตือน (จำเป็น)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,ให้ NEXGUARD ตรวจสอบเหตุการณ์การแจ้งเตือนในเครื่องเพื่อหาข้อจำกัดการส่ง
+permissionGuardianNotifications,NEXGUARD Alerts,การแจ้งเตือน NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,รับบันทึกวินิจฉัยสั้น ๆ หากการส่งเบื้องหลังถูกบล็อก
+permissionBatteryOptimization,Background Reliability,ความเสถียรเบื้องหลัง
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,ยกเว้น NEXGUARD จากข้อจำกัดแบตเตอรี่ที่เข้มงวดเพื่อให้เชื่อมต่ออยู่
+permissionPrivacyNotice,Private & On-Device,ส่วนตัวและบนอุปกรณ์
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,เฉพาะข้อมูลเมตา NEXGUARD ไม่บันทึกหรือส่งข้อความ
+grantAccess,Grant,อนุญาต
+granted,Active,ใช้งานอยู่
+notGranted,Action Needed,ต้องดำเนินการ
+finishSetup,Complete Setup,ตั้งค่าเสร็จ
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,ให้สิทธิ์ที่จำเป็นก่อนดำเนินการต่อ
+allPermissionsRequired,Notification Access is required to continue.,ต้องมีการเข้าถึงการแจ้งเตือนเพื่อดำเนินการต่อ
+requiredPermissions,Required Permissions,สิทธิ์ที่จำเป็น
+permissionDenied,Permission Denied,ปฏิเสธสิทธิ์
+missingNotificationAccess,Missing: Notification Access,ขาด: การเข้าถึงการแจ้งเตือน
+statusProtectionActive,Monitoring Active,กำลังตรวจสอบ
+statusProtectionActiveDesc,Monitoring notification delivery in background,กำลังตรวจสอบการส่งการแจ้งเตือนเบื้องหลัง
+statusAccessRequired,Access Required,ต้องมีการเข้าถึง
+statusAccessRequiredDesc,Grant notification access to start monitoring,ให้การเข้าถึงการแจ้งเตือนเพื่อเริ่มตรวจสอบ
+statusBatteryRestricted,Battery Restricted,แบตเตอรี่ถูกจำกัด
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,การเพิ่มประสิทธิภาพแบตเตอรี่อาจทำให้การแจ้งเตือนช้า
+statusMonitoringPaused,Monitoring Paused,หยุดตรวจสอบชั่วคราว
+statusMonitoringPausedDesc,Notification monitoring is paused by user,ผู้ใช้หยุดตรวจสอบการแจ้งเตือนชั่วคราว
+rowNotificationAccess,Notification Access,การเข้าถึงการแจ้งเตือน
+rowMonitoringState,Monitoring State,สถานะการตรวจสอบ
+rowBatteryOptimization,Battery Policy,นโยบายแบตเตอรี่
+rowMonitoredApps,Monitored Apps,แอปที่ตรวจสอบ
+rowLastDiagnostic,System Health,สุขภาพระบบ
+actionEnableProtection,Enable Monitoring,เปิดการตรวจสอบ
+actionRunDiagnostics,Run Diagnostics,เรียกใช้การวินิจฉัย
+actionManageApps,Manage Apps,จัดการแอป
+actionSettings,Settings,การตั้งค่า
+actionFixPermissions,Fix Permissions,แก้สิทธิ์
+settingsTitle,Settings,การตั้งค่า
+sectionAppearance,Appearance,ลักษณะ
+themeBlack,Black,ดำ
+themeWhite,White,ขาว
+themeGoldenBlack,Golden & Black,ทองและดำ
+themeGoldenWhite,Golden & White,ทองและขาว
+reducedMotion,Reduced Motion,ลดการเคลื่อนไหว
+reducedMotionDesc,Disable non-essential pulse and transitions,ปิดภาพเคลื่อนไหวที่ไม่จำเป็น
+hapticFeedback,Haptic Feedback,การตอบสนองแบบสั่น
+hapticFeedbackDesc,Vibrate on interactions and button taps,สั่นเมื่อกดปุ่ม
+sectionLanguage,Language,ภาษา
+currentLanguage,App Language,ภาษาของแอป
+sectionMonitoring,Notification Monitoring,การตรวจสอบการแจ้งเตือน
+monitoringActive,Monitoring active,กำลังตรวจสอบ
+monitoringActiveDesc,Active local listener for delivery status,ตัวรับในเครื่องกำลังตรวจสถานะการส่ง
+monitoringUnavailable,Monitoring unavailable,ตรวจสอบไม่ได้
+historyPrivacy,History Privacy,ความเป็นส่วนตัวของประวัติ
+historyPrivacyMetadata,Metadata only (Recommended),เฉพาะข้อมูลเมตา (แนะนำ)
+historyPrivacyOptIn,Metadata + Titles,ข้อมูลเมตา + ชื่อเรื่อง
+diagnosticAlerts,Alert Frequency,ความถี่การแจ้งเตือน
+alertsSilent,Silent Monitoring,ตรวจสอบแบบเงียบ
+alertsCriticalOnly,Critical Alerts Only,เฉพาะการแจ้งเตือนสำคัญ
+alertsAll,All Diagnostic Alerts,การแจ้งเตือนวินิจฉัยทั้งหมด
+sectionAppManagement,Installed Apps,แอปที่ติดตั้ง
+sectionAppManagementDesc,Configure individual app monitoring rules,ตั้งกฎการตรวจสอบของแต่ละแอป
+sectionBattery,Battery & Background,แบตเตอรี่และเบื้องหลัง
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,ดูข้อจำกัดแบตเตอรี่และคำแนะนำผู้ผลิต
+openBatterySettings,Open Battery Settings,เปิดการตั้งค่าแบตเตอรี่
+sectionDiagnostics,Diagnostics Engine,การวินิจฉัย
+runDiagnosticsNow,Run Full Check,เรียกใช้การตรวจสอบทั้งหมด
+sectionPrivacyStorage,Privacy & Local Data,ความเป็นส่วนตัวและข้อมูลในเครื่อง
+eventRetention,Event History Retention,ระยะเวลาเก็บบันทึก
+retention1Day,1 Day,1 วัน
+retention7Days,7 Days,7 วัน
+retention30Days,30 Days,30 วัน
+clearHistory,Clear Event Log,ล้างบันทึกเหตุการณ์
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,ล้างประวัติเหตุการณ์การแจ้งเตือนหรือไม่
+resetSettings,Reset Preferences,รีเซ็ตค่ากำหนด
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,คืนค่ากำหนด NEXGUARD ทั้งหมดเป็นค่าเริ่มต้นหรือไม่
+cancel,Cancel,ยกเลิก
+confirm,Confirm,ยืนยัน
+save,Save,บันทึก
+changesSaved,Changes saved,บันทึกการเปลี่ยนแปลงแล้ว
+changesNotSaved,Changes could not be saved,บันทึกการเปลี่ยนแปลงไม่ได้
+appManagerTitle,Manage Apps,จัดการแอป
+searchApps,Search apps...,ค้นหาแอป...
+filterAll,All,ทั้งหมด
+filterUser,User,ผู้ใช้
+filterSystem,System,ระบบ
+monitoredStatus,Monitored,กำลังตรวจสอบ
+unmonitoredStatus,Excluded,ยกเว้น
+openAppNotificationSettings,App Notification Settings,การตั้งค่าการแจ้งเตือนของแอป
+openAppDetailsSettings,System App Info,ข้อมูลแอประบบ
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,เพื่อความเสถียร ให้อนุญาตข้อมูลเบื้องหลังและการใช้แบตเตอรี่แบบไม่จำกัด
+noAppsFound,No applications match your filter,ไม่มีแอปที่ตรงกับตัวกรอง
+diagnosticReportTitle,Diagnostic Results,ผลการวินิจฉัย
+allChecksPassed,All systems functioning normally,การตรวจสอบทั้งหมดปกติ
+issuesDetected,Issues detected affecting reliability,พบปัญหาที่ส่งผลต่อความเสถียร
+manufacturerGuidance,Device Manufacturer Advice,คำแนะนำผู้ผลิตอุปกรณ์
+protectionDetailsTitle,Monitoring Status,สถานะการตรวจสอบ
+close,Close,ปิด
+startProtection,Start Monitoring,เริ่มตรวจสอบ
+protectInBackground,Start Monitoring,เริ่มตรวจสอบ
+stopProtection,Stop Monitoring,หยุดตรวจสอบ
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD ทำงานอยู่และกำลังตรวจสอบการแจ้งเตือนเบื้องหลัง
+aboutTitle,About,เกี่ยวกับ
+aboutVersion,Version,เวอร์ชัน
+aboutGitHub,Source code,ซอร์สโค้ด
+aboutLicense,License,สัญญาอนุญาต
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","ไลบรารีโอเพนซอร์ส: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines"

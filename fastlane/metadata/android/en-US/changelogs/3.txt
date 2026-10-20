@@ -1,2 +1,0 @@
-Namespace cleanup and removal of unused Google Services dependencies.
-Documentation updated for the 1.0.2 GitHub release.

@@ -34,7 +34,7 @@ class DiagnosticWorker(
             if (!isListenerGranted && prefs.monitoringActive) {
                 SmartAlertManager.maybePostDiagnosticAlert(
                     context = appContext,
-                    title = "NexGuard: Notification Access Revoked",
+                    title = "NEXGUARD: Notification Access Revoked",
                     message = "Notification listener permission is required to monitor delivery.",
                     isCritical = true,
                     alertPreference = prefs.alertPreference

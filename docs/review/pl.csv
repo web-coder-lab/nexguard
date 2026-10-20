@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Monitor stanu powiadomień
+selectLanguage,Choose Language,Wybierz język
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Wybierz język. Możesz go później zmienić.
+searchLanguage,Search languages...,Szukaj języków...
+continueButton,Continue,Kontynuuj
+nextButton,Next,Dalej
+backButton,Back,Wstecz
+setupTitle,Permission Setup,Konfiguracja uprawnień
+setupSubtitle,Configure system access to keep notifications reliable,"Ustaw dostęp systemu, aby powiadomienia były niezawodne"
+permissionNotificationListener,Notification Access (Required),Dostęp do powiadomień (wymagany)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,Pozwala NEXGUARD lokalnie monitorować zdarzenia powiadomień i wykrywać ograniczenia dostarczania.
+permissionGuardianNotifications,NEXGUARD Alerts,Alerty NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,"Krótkie uwagi diagnostyczne, gdy dostarczanie w tle jest zablokowane."
+permissionBatteryOptimization,Background Reliability,Niezawodność w tle
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,"Wyłącz NEXGUARD ze ścisłych ograniczeń baterii, aby pozostał połączony."
+permissionPrivacyNotice,Private & On-Device,Prywatnie i na urządzeniu
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Tylko metadane. NEXGUARD nie zapisuje ani nie wysyła treści wiadomości.
+grantAccess,Grant,Zezwól
+granted,Active,Aktywne
+notGranted,Action Needed,Wymagane działanie
+finishSetup,Complete Setup,Zakończ konfigurację
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Przyznaj wymagane uprawnienia przed kontynuowaniem.
+allPermissionsRequired,Notification Access is required to continue.,Do kontynuowania potrzebny jest dostęp do powiadomień.
+requiredPermissions,Required Permissions,Wymagane uprawnienia
+permissionDenied,Permission Denied,Odmowa uprawnienia
+missingNotificationAccess,Missing: Notification Access,Brak: dostęp do powiadomień
+statusProtectionActive,Monitoring Active,Monitorowanie aktywne
+statusProtectionActiveDesc,Monitoring notification delivery in background,Monitorowanie dostarczania powiadomień w tle
+statusAccessRequired,Access Required,Wymagany dostęp
+statusAccessRequiredDesc,Grant notification access to start monitoring,"Przyznaj dostęp do powiadomień, aby rozpocząć monitorowanie"
+statusBatteryRestricted,Battery Restricted,Bateria ograniczona
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,Optymalizacja baterii może opóźniać powiadomienia
+statusMonitoringPaused,Monitoring Paused,Monitorowanie wstrzymane
+statusMonitoringPausedDesc,Notification monitoring is paused by user,Użytkownik wstrzymał monitorowanie powiadomień
+rowNotificationAccess,Notification Access,Dostęp do powiadomień
+rowMonitoringState,Monitoring State,Stan monitorowania
+rowBatteryOptimization,Battery Policy,Zasady baterii
+rowMonitoredApps,Monitored Apps,Monitorowane aplikacje
+rowLastDiagnostic,System Health,Stan systemu
+actionEnableProtection,Enable Monitoring,Włącz monitorowanie
+actionRunDiagnostics,Run Diagnostics,Uruchom diagnostykę
+actionManageApps,Manage Apps,Zarządzaj aplikacjami
+actionSettings,Settings,Ustawienia
+actionFixPermissions,Fix Permissions,Popraw uprawnienia
+settingsTitle,Settings,Ustawienia
+sectionAppearance,Appearance,Wygląd
+themeBlack,Black,Czarny
+themeWhite,White,Biały
+themeGoldenBlack,Golden & Black,Złoto i czerń
+themeGoldenWhite,Golden & White,Złoto i biel
+reducedMotion,Reduced Motion,Mniej ruchu
+reducedMotionDesc,Disable non-essential pulse and transitions,Wyłącz zbędne animacje i przejścia
+hapticFeedback,Haptic Feedback,Reakcja haptyczna
+hapticFeedbackDesc,Vibrate on interactions and button taps,Wibracja przy naciskaniu przycisków
+sectionLanguage,Language,Język
+currentLanguage,App Language,Język aplikacji
+sectionMonitoring,Notification Monitoring,Monitorowanie powiadomień
+monitoringActive,Monitoring active,Monitorowanie aktywne
+monitoringActiveDesc,Active local listener for delivery status,Lokalny nasłuch sprawdza stan dostarczania
+monitoringUnavailable,Monitoring unavailable,Monitorowanie niedostępne
+historyPrivacy,History Privacy,Prywatność historii
+historyPrivacyMetadata,Metadata only (Recommended),Tylko metadane (zalecane)
+historyPrivacyOptIn,Metadata + Titles,Metadane + tytuły
+diagnosticAlerts,Alert Frequency,Częstotliwość alertów
+alertsSilent,Silent Monitoring,Ciche monitorowanie
+alertsCriticalOnly,Critical Alerts Only,Tylko ważne alerty
+alertsAll,All Diagnostic Alerts,Wszystkie alerty diagnostyczne
+sectionAppManagement,Installed Apps,Zainstalowane aplikacje
+sectionAppManagementDesc,Configure individual app monitoring rules,Ustaw zasady monitorowania każdej aplikacji
+sectionBattery,Battery & Background,Bateria i tło
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Sprawdź ograniczenia baterii i wskazówki producenta
+openBatterySettings,Open Battery Settings,Otwórz ustawienia baterii
+sectionDiagnostics,Diagnostics Engine,Diagnostyka
+runDiagnosticsNow,Run Full Check,Uruchom pełne sprawdzenie
+sectionPrivacyStorage,Privacy & Local Data,Prywatność i dane lokalne
+eventRetention,Event History Retention,Okres przechowywania historii
+retention1Day,1 Day,1 dzień
+retention7Days,7 Days,7 dni
+retention30Days,30 Days,30 dni
+clearHistory,Clear Event Log,Wyczyść dziennik zdarzeń
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Wyczyścić historię zdarzeń powiadomień?
+resetSettings,Reset Preferences,Resetuj preferencje
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Przywrócić wszystkie preferencje NEXGUARD do domyślnych?
+cancel,Cancel,Anuluj
+confirm,Confirm,Potwierdź
+save,Save,Zapisz
+changesSaved,Changes saved,Zmiany zapisane
+changesNotSaved,Changes could not be saved,Nie udało się zapisać zmian
+appManagerTitle,Manage Apps,Zarządzaj aplikacjami
+searchApps,Search apps...,Szukaj aplikacji...
+filterAll,All,Wszystkie
+filterUser,User,Użytkownik
+filterSystem,System,System
+monitoredStatus,Monitored,Monitorowana
+unmonitoredStatus,Excluded,Wykluczona
+openAppNotificationSettings,App Notification Settings,Ustawienia powiadomień aplikacji
+openAppDetailsSettings,System App Info,Informacje o aplikacji systemowej
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,Dla większej niezawodności zezwól na nieograniczone dane w tle i użycie baterii.
+noAppsFound,No applications match your filter,Brak aplikacji pasujących do filtra
+diagnosticReportTitle,Diagnostic Results,Wyniki diagnostyki
+allChecksPassed,All systems functioning normally,Wszystkie kontrole są prawidłowe
+issuesDetected,Issues detected affecting reliability,Wykryto problemy wpływające na niezawodność
+manufacturerGuidance,Device Manufacturer Advice,Wskazówka producenta urządzenia
+protectionDetailsTitle,Monitoring Status,Stan monitorowania
+close,Close,Zamknij
+startProtection,Start Monitoring,Rozpocznij monitorowanie
+protectInBackground,Start Monitoring,Rozpocznij monitorowanie
+stopProtection,Stop Monitoring,Zatrzymaj monitorowanie
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD jest aktywny i monitoruje powiadomienia w tle.
+aboutTitle,About,O aplikacji
+aboutVersion,Version,Wersja
+aboutGitHub,Source code,Kod źródłowy
+aboutLicense,License,Licencja
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Biblioteki open source: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."

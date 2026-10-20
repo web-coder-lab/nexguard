@@ -33,6 +33,7 @@ class UserPreferencesRepository(private val context: Context) {
         val KEY_ALERT_PREFERENCE = stringPreferencesKey("alert_preference")
         val KEY_RETENTION_DAYS = intPreferencesKey("retention_days")
         val KEY_EXCLUDED_PACKAGES = stringSetPreferencesKey("excluded_packages")
+        val KEY_SYSTEM_DEFAULT_APPLIED = booleanPreferencesKey("system_default_applied")
         val KEY_LAST_DIAGNOSTIC_TS = longPreferencesKey("last_diagnostic_ts")
         val KEY_LAST_DIAGNOSTIC_SUMMARY = stringPreferencesKey("last_diagnostic_summary")
     }
@@ -144,6 +145,22 @@ class UserPreferencesRepository(private val context: Context) {
         }
     }
 
+    suspend fun applySystemAppDefaultsIfNeeded(
+        systemPackages: Set<String>,
+        firstInstallTime: Long,
+        lastUpdateTime: Long
+    ) {
+        context.guardianDataStore.edit { preferences ->
+            val alreadyApplied = preferences[PreferencesKeys.KEY_SYSTEM_DEFAULT_APPLIED] == true
+            if (alreadyApplied) return@edit
+            val freshInstall = SystemAppDefaultPolicy.isFreshInstall(firstInstallTime, lastUpdateTime)
+            if (freshInstall) {
+                preferences[PreferencesKeys.KEY_EXCLUDED_PACKAGES] = systemPackages
+            }
+            preferences[PreferencesKeys.KEY_SYSTEM_DEFAULT_APPLIED] = true
+        }
+    }
+
     suspend fun updateLastDiagnostic(timestamp: Long, summary: String) {
         context.guardianDataStore.edit { preferences ->
             preferences[PreferencesKeys.KEY_LAST_DIAGNOSTIC_TS] = timestamp
@@ -163,5 +180,20 @@ class UserPreferencesRepository(private val context: Context) {
             preferences.remove(PreferencesKeys.KEY_EXCLUDED_PACKAGES)
             // Language & setupCompleted are kept so user doesn't lose their selected locale or onboarding state!
         }
+    }
+}
+
+internal object SystemAppDefaultPolicy {
+    fun isFreshInstall(firstInstallTime: Long, lastUpdateTime: Long): Boolean {
+        return firstInstallTime > 0L && firstInstallTime == lastUpdateTime
+    }
+
+    fun shouldExcludeSystemApps(
+        defaultsAlreadyApplied: Boolean,
+        firstInstallTime: Long,
+        lastUpdateTime: Long
+    ): Boolean {
+        if (defaultsAlreadyApplied) return false
+        return isFreshInstall(firstInstallTime, lastUpdateTime)
     }
 }

@@ -45,6 +45,8 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          prerelease: ${{ github.ref_name == 'v1.0.3' }}
+          make_latest: ${{ github.ref_name == 'v1.0.3' && 'false' || 'true' }}
           files: |
             NEXGUARD-*.apk
             NEXGUARD-*.apk.sha256

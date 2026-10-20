@@ -23,7 +23,7 @@ object SmartAlertManager {
 
     fun createNotificationChannel(context: Context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val name = "NexGuard Diagnostics"
+            val name = "NEXGUARD Diagnostics"
             val descriptionText = "Important alerts when background notification delivery is restricted"
             val importance = NotificationManager.IMPORTANCE_DEFAULT
             val channel = NotificationChannel(CHANNEL_ID, name, importance).apply {

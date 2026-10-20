@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Theo dõi tình trạng thông báo
+selectLanguage,Choose Language,Chọn ngôn ngữ
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Chọn ngôn ngữ. Bạn có thể đổi sau.
+searchLanguage,Search languages...,Tìm ngôn ngữ...
+continueButton,Continue,Tiếp tục
+nextButton,Next,Tiếp
+backButton,Back,Quay lại
+setupTitle,Permission Setup,Thiết lập quyền
+setupSubtitle,Configure system access to keep notifications reliable,Đặt quyền hệ thống để thông báo ổn định
+permissionNotificationListener,Notification Access (Required),Quyền truy cập thông báo (bắt buộc)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,Cho phép NEXGUARD theo dõi sự kiện thông báo trên máy để phát hiện hạn chế gửi.
+permissionGuardianNotifications,NEXGUARD Alerts,Cảnh báo NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,Nhận ghi chú chẩn đoán ngắn nếu gửi nền bị chặn.
+permissionBatteryOptimization,Background Reliability,Độ tin cậy nền
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,Loại NEXGUARD khỏi hạn chế pin nghiêm ngặt để luôn kết nối.
+permissionPrivacyNotice,Private & On-Device,Riêng tư và trên thiết bị
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Chỉ siêu dữ liệu. NEXGUARD không lưu hoặc gửi nội dung tin nhắn.
+grantAccess,Grant,Cho phép
+granted,Active,Đang bật
+notGranted,Action Needed,Cần thao tác
+finishSetup,Complete Setup,Hoàn tất thiết lập
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Hãy cấp quyền bắt buộc trước khi tiếp tục.
+allPermissionsRequired,Notification Access is required to continue.,Cần quyền truy cập thông báo để tiếp tục.
+requiredPermissions,Required Permissions,Quyền bắt buộc
+permissionDenied,Permission Denied,Quyền bị từ chối
+missingNotificationAccess,Missing: Notification Access,Thiếu: quyền truy cập thông báo
+statusProtectionActive,Monitoring Active,Đang theo dõi
+statusProtectionActiveDesc,Monitoring notification delivery in background,Đang theo dõi gửi thông báo ở nền
+statusAccessRequired,Access Required,Cần quyền truy cập
+statusAccessRequiredDesc,Grant notification access to start monitoring,Cấp quyền truy cập thông báo để bắt đầu theo dõi
+statusBatteryRestricted,Battery Restricted,Pin bị hạn chế
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,Tối ưu pin có thể làm chậm thông báo
+statusMonitoringPaused,Monitoring Paused,Đã tạm dừng theo dõi
+statusMonitoringPausedDesc,Notification monitoring is paused by user,Người dùng đã tạm dừng theo dõi thông báo
+rowNotificationAccess,Notification Access,Quyền truy cập thông báo
+rowMonitoringState,Monitoring State,Trạng thái theo dõi
+rowBatteryOptimization,Battery Policy,Chính sách pin
+rowMonitoredApps,Monitored Apps,Ứng dụng đang theo dõi
+rowLastDiagnostic,System Health,Tình trạng hệ thống
+actionEnableProtection,Enable Monitoring,Bật theo dõi
+actionRunDiagnostics,Run Diagnostics,Chạy chẩn đoán
+actionManageApps,Manage Apps,Quản lý ứng dụng
+actionSettings,Settings,Cài đặt
+actionFixPermissions,Fix Permissions,Sửa quyền
+settingsTitle,Settings,Cài đặt
+sectionAppearance,Appearance,Giao diện
+themeBlack,Black,Đen
+themeWhite,White,Trắng
+themeGoldenBlack,Golden & Black,Vàng và đen
+themeGoldenWhite,Golden & White,Vàng và trắng
+reducedMotion,Reduced Motion,Giảm chuyển động
+reducedMotionDesc,Disable non-essential pulse and transitions,Tắt hoạt ảnh và chuyển cảnh không cần thiết
+hapticFeedback,Haptic Feedback,Phản hồi rung
+hapticFeedbackDesc,Vibrate on interactions and button taps,Rung khi nhấn nút
+sectionLanguage,Language,Ngôn ngữ
+currentLanguage,App Language,Ngôn ngữ ứng dụng
+sectionMonitoring,Notification Monitoring,Theo dõi thông báo
+monitoringActive,Monitoring active,Đang theo dõi
+monitoringActiveDesc,Active local listener for delivery status,Trình nghe cục bộ đang kiểm tra trạng thái gửi
+monitoringUnavailable,Monitoring unavailable,Không thể theo dõi
+historyPrivacy,History Privacy,Quyền riêng tư lịch sử
+historyPrivacyMetadata,Metadata only (Recommended),Chỉ siêu dữ liệu (khuyên dùng)
+historyPrivacyOptIn,Metadata + Titles,Siêu dữ liệu + tiêu đề
+diagnosticAlerts,Alert Frequency,Tần suất cảnh báo
+alertsSilent,Silent Monitoring,Theo dõi im lặng
+alertsCriticalOnly,Critical Alerts Only,Chỉ cảnh báo quan trọng
+alertsAll,All Diagnostic Alerts,Mọi cảnh báo chẩn đoán
+sectionAppManagement,Installed Apps,Ứng dụng đã cài
+sectionAppManagementDesc,Configure individual app monitoring rules,Đặt quy tắc theo dõi cho từng ứng dụng
+sectionBattery,Battery & Background,Pin và nền
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Xem hạn chế pin và hướng dẫn nhà sản xuất
+openBatterySettings,Open Battery Settings,Mở cài đặt pin
+sectionDiagnostics,Diagnostics Engine,Chẩn đoán
+runDiagnosticsNow,Run Full Check,Chạy kiểm tra đầy đủ
+sectionPrivacyStorage,Privacy & Local Data,Quyền riêng tư và dữ liệu cục bộ
+eventRetention,Event History Retention,Thời gian giữ lịch sử
+retention1Day,1 Day,1 ngày
+retention7Days,7 Days,7 ngày
+retention30Days,30 Days,30 ngày
+clearHistory,Clear Event Log,Xóa nhật ký sự kiện
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Xóa lịch sử sự kiện thông báo?
+resetSettings,Reset Preferences,Đặt lại tùy chọn
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Đưa mọi tùy chọn NEXGUARD về mặc định?
+cancel,Cancel,Hủy
+confirm,Confirm,Xác nhận
+save,Save,Lưu
+changesSaved,Changes saved,Đã lưu thay đổi
+changesNotSaved,Changes could not be saved,Không lưu được thay đổi
+appManagerTitle,Manage Apps,Quản lý ứng dụng
+searchApps,Search apps...,Tìm ứng dụng...
+filterAll,All,Tất cả
+filterUser,User,Người dùng
+filterSystem,System,Hệ thống
+monitoredStatus,Monitored,Đang theo dõi
+unmonitoredStatus,Excluded,Đã loại
+openAppNotificationSettings,App Notification Settings,Cài đặt thông báo ứng dụng
+openAppDetailsSettings,System App Info,Thông tin ứng dụng hệ thống
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,"Để ổn định hơn, hãy cho phép dữ liệu nền và dùng pin không hạn chế."
+noAppsFound,No applications match your filter,Không có ứng dụng khớp bộ lọc
+diagnosticReportTitle,Diagnostic Results,Kết quả chẩn đoán
+allChecksPassed,All systems functioning normally,Mọi kiểm tra đều bình thường
+issuesDetected,Issues detected affecting reliability,Phát hiện vấn đề ảnh hưởng độ tin cậy
+manufacturerGuidance,Device Manufacturer Advice,Hướng dẫn nhà sản xuất
+protectionDetailsTitle,Monitoring Status,Trạng thái theo dõi
+close,Close,Đóng
+startProtection,Start Monitoring,Bắt đầu theo dõi
+protectInBackground,Start Monitoring,Bắt đầu theo dõi
+stopProtection,Stop Monitoring,Dừng theo dõi
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD đang hoạt động và theo dõi thông báo ở nền.
+aboutTitle,About,Giới thiệu
+aboutVersion,Version,Phiên bản
+aboutGitHub,Source code,Mã nguồn
+aboutLicense,License,Giấy phép
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Thư viện mã nguồn mở: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."

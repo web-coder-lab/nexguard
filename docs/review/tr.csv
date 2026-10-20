@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Bildirim durumu izleyici
+selectLanguage,Choose Language,Dil seç
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Dilinizi seçin. Daha sonra değiştirebilirsiniz.
+searchLanguage,Search languages...,Dil ara...
+continueButton,Continue,Devam
+nextButton,Next,İleri
+backButton,Back,Geri
+setupTitle,Permission Setup,İzin kurulumu
+setupSubtitle,Configure system access to keep notifications reliable,Bildirimlerin güvenilir kalması için sistem erişimini ayarlayın
+permissionNotificationListener,Notification Access (Required),Bildirim erişimi (gerekli)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,NEXGUARD'ın bildirim olaylarını cihazda izleyip teslim kısıtlarını görmesini sağlar.
+permissionGuardianNotifications,NEXGUARD Alerts,NEXGUARD uyarıları
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,Arka plan teslimi durursa kısa tanılama bildirimi alın.
+permissionBatteryOptimization,Background Reliability,Arka plan güvenilirliği
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,Bağlı kalması için NEXGUARD'ı sıkı pil kısıtlarından muaf tutun.
+permissionPrivacyNotice,Private & On-Device,Özel ve cihazda
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Yalnızca üst veri. NEXGUARD mesaj metnini kaydetmez veya göndermez.
+grantAccess,Grant,İzin ver
+granted,Active,Etkin
+notGranted,Action Needed,İşlem gerekli
+finishSetup,Complete Setup,Kurulumu bitir
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Devam etmeden önce gerekli izinleri verin.
+allPermissionsRequired,Notification Access is required to continue.,Devam etmek için bildirim erişimi gerekir.
+requiredPermissions,Required Permissions,Gerekli izinler
+permissionDenied,Permission Denied,İzin reddedildi
+missingNotificationAccess,Missing: Notification Access,Eksik: bildirim erişimi
+statusProtectionActive,Monitoring Active,İzleme etkin
+statusProtectionActiveDesc,Monitoring notification delivery in background,Bildirim teslimi arka planda izleniyor
+statusAccessRequired,Access Required,Erişim gerekli
+statusAccessRequiredDesc,Grant notification access to start monitoring,İzlemeyi başlatmak için bildirim erişimi verin
+statusBatteryRestricted,Battery Restricted,Pil kısıtlı
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,Pil optimizasyonu bildirimleri geciktirebilir
+statusMonitoringPaused,Monitoring Paused,İzleme duraklatıldı
+statusMonitoringPausedDesc,Notification monitoring is paused by user,Kullanıcı bildirim izlemeyi duraklattı
+rowNotificationAccess,Notification Access,Bildirim erişimi
+rowMonitoringState,Monitoring State,İzleme durumu
+rowBatteryOptimization,Battery Policy,Pil ilkesi
+rowMonitoredApps,Monitored Apps,İzlenen uygulamalar
+rowLastDiagnostic,System Health,Sistem durumu
+actionEnableProtection,Enable Monitoring,İzlemeyi aç
+actionRunDiagnostics,Run Diagnostics,Tanılamayı çalıştır
+actionManageApps,Manage Apps,Uygulamaları yönet
+actionSettings,Settings,Ayarlar
+actionFixPermissions,Fix Permissions,İzinleri düzelt
+settingsTitle,Settings,Ayarlar
+sectionAppearance,Appearance,Görünüm
+themeBlack,Black,Siyah
+themeWhite,White,Beyaz
+themeGoldenBlack,Golden & Black,Altın ve siyah
+themeGoldenWhite,Golden & White,Altın ve beyaz
+reducedMotion,Reduced Motion,Daha az hareket
+reducedMotionDesc,Disable non-essential pulse and transitions,Gereksiz animasyon ve geçişleri kapat
+hapticFeedback,Haptic Feedback,Dokunsal geri bildirim
+hapticFeedbackDesc,Vibrate on interactions and button taps,Düğmelere basınca titreşim
+sectionLanguage,Language,Dil
+currentLanguage,App Language,Uygulama dili
+sectionMonitoring,Notification Monitoring,Bildirim izleme
+monitoringActive,Monitoring active,İzleme etkin
+monitoringActiveDesc,Active local listener for delivery status,Yerel dinleyici teslim durumunu kontrol ediyor
+monitoringUnavailable,Monitoring unavailable,İzleme kullanılamıyor
+historyPrivacy,History Privacy,Geçmiş gizliliği
+historyPrivacyMetadata,Metadata only (Recommended),Yalnızca üst veri (önerilir)
+historyPrivacyOptIn,Metadata + Titles,Üst veri + başlıklar
+diagnosticAlerts,Alert Frequency,Uyarı sıklığı
+alertsSilent,Silent Monitoring,Sessiz izleme
+alertsCriticalOnly,Critical Alerts Only,Yalnızca önemli uyarılar
+alertsAll,All Diagnostic Alerts,Tüm tanı uyarıları
+sectionAppManagement,Installed Apps,Yüklü uygulamalar
+sectionAppManagementDesc,Configure individual app monitoring rules,Her uygulama için izleme kuralı ayarlayın
+sectionBattery,Battery & Background,Pil ve arka plan
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Pil kısıtlarını ve üretici rehberini inceleyin
+openBatterySettings,Open Battery Settings,Pil ayarlarını aç
+sectionDiagnostics,Diagnostics Engine,Tanılama
+runDiagnosticsNow,Run Full Check,Tam kontrol çalıştır
+sectionPrivacyStorage,Privacy & Local Data,Gizlilik ve yerel veri
+eventRetention,Event History Retention,Geçmiş saklama süresi
+retention1Day,1 Day,1 gün
+retention7Days,7 Days,7 gün
+retention30Days,30 Days,30 gün
+clearHistory,Clear Event Log,Olay günlüğünü temizle
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Bildirim olay geçmişi temizlensin mi?
+resetSettings,Reset Preferences,Tercihleri sıfırla
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Tüm NEXGUARD tercihleri varsayılana dönsün mü?
+cancel,Cancel,İptal
+confirm,Confirm,Onayla
+save,Save,Kaydet
+changesSaved,Changes saved,Değişiklikler kaydedildi
+changesNotSaved,Changes could not be saved,Değişiklikler kaydedilemedi
+appManagerTitle,Manage Apps,Uygulamaları yönet
+searchApps,Search apps...,Uygulama ara...
+filterAll,All,Tümü
+filterUser,User,Kullanıcı
+filterSystem,System,Sistem
+monitoredStatus,Monitored,İzleniyor
+unmonitoredStatus,Excluded,Hariç
+openAppNotificationSettings,App Notification Settings,Uygulama bildirim ayarları
+openAppDetailsSettings,System App Info,Sistem uygulaması bilgisi
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,Daha iyi güvenilirlik için arka plan verisini ve pil kullanımını kısıtlamasız bırakın.
+noAppsFound,No applications match your filter,Filtreye uyan uygulama yok
+diagnosticReportTitle,Diagnostic Results,Tanılama sonuçları
+allChecksPassed,All systems functioning normally,Tüm kontroller normal
+issuesDetected,Issues detected affecting reliability,Güvenilirliği etkileyen sorunlar bulundu
+manufacturerGuidance,Device Manufacturer Advice,Cihaz üreticisi rehberi
+protectionDetailsTitle,Monitoring Status,İzleme durumu
+close,Close,Kapat
+startProtection,Start Monitoring,İzlemeyi başlat
+protectInBackground,Start Monitoring,İzlemeyi başlat
+stopProtection,Stop Monitoring,İzlemeyi durdur
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD etkin ve arka planda bildirimleri izliyor.
+aboutTitle,About,Hakkında
+aboutVersion,Version,Sürüm
+aboutGitHub,Source code,Kaynak kod
+aboutLicense,License,Lisans
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Açık kaynak kitaplıklar: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."
