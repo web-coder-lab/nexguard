@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,پایش سلامت اعلان‌ها
+selectLanguage,Choose Language,انتخاب زبان
+selectLanguageDesc,Select your preferred language. You can change this anytime.,زبان دلخواه را انتخاب کنید. بعداً می‌توانید تغییرش دهید.
+searchLanguage,Search languages...,جستجوی زبان‌ها...
+continueButton,Continue,ادامه
+nextButton,Next,بعدی
+backButton,Back,بازگشت
+setupTitle,Permission Setup,تنظیم مجوزها
+setupSubtitle,Configure system access to keep notifications reliable,دسترسی سیستم را برای قابل‌اعتماد ماندن اعلان‌ها تنظیم کنید
+permissionNotificationListener,Notification Access (Required),دسترسی به اعلان‌ها (الزامی)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,به NEXGUARD اجازه می‌دهد رویدادهای اعلان را به‌صورت محلی ببیند تا محدودیت تحویل مشخص شود.
+permissionGuardianNotifications,NEXGUARD Alerts,هشدارهای NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,اگر تحویل در پس‌زمینه متوقف شود، یادداشت تشخیصی کوتاه دریافت کنید.
+permissionBatteryOptimization,Background Reliability,پایداری پس‌زمینه
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,NEXGUARD را از محدودیت شدید باتری مستثنا کنید تا متصل بماند.
+permissionPrivacyNotice,Private & On-Device,خصوصی و روی دستگاه
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,فقط فراداده. NEXGUARD متن پیام را ذخیره یا ارسال نمی‌کند.
+grantAccess,Grant,اجازه
+granted,Active,فعال
+notGranted,Action Needed,نیاز به اقدام
+finishSetup,Complete Setup,پایان تنظیم
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,پیش از ادامه، مجوزهای لازم را بدهید.
+allPermissionsRequired,Notification Access is required to continue.,برای ادامه، دسترسی به اعلان‌ها لازم است.
+requiredPermissions,Required Permissions,مجوزهای لازم
+permissionDenied,Permission Denied,مجوز رد شد
+missingNotificationAccess,Missing: Notification Access,موجود نیست: دسترسی به اعلان‌ها
+statusProtectionActive,Monitoring Active,پایش فعال
+statusProtectionActiveDesc,Monitoring notification delivery in background,تحویل اعلان در پس‌زمینه پایش می‌شود
+statusAccessRequired,Access Required,دسترسی لازم است
+statusAccessRequiredDesc,Grant notification access to start monitoring,برای شروع پایش، دسترسی به اعلان‌ها را بدهید
+statusBatteryRestricted,Battery Restricted,باتری محدود
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,بهینه‌سازی باتری ممکن است اعلان‌ها را به تأخیر بیندازد
+statusMonitoringPaused,Monitoring Paused,پایش متوقف
+statusMonitoringPausedDesc,Notification monitoring is paused by user,پایش اعلان توسط کاربر متوقف شده است
+rowNotificationAccess,Notification Access,دسترسی به اعلان‌ها
+rowMonitoringState,Monitoring State,وضعیت پایش
+rowBatteryOptimization,Battery Policy,سیاست باتری
+rowMonitoredApps,Monitored Apps,برنامه‌های تحت پایش
+rowLastDiagnostic,System Health,سلامت سیستم
+actionEnableProtection,Enable Monitoring,فعال‌سازی پایش
+actionRunDiagnostics,Run Diagnostics,اجرای تشخیص
+actionManageApps,Manage Apps,مدیریت برنامه‌ها
+actionSettings,Settings,تنظیمات
+actionFixPermissions,Fix Permissions,رفع مجوزها
+settingsTitle,Settings,تنظیمات
+sectionAppearance,Appearance,ظاهر
+themeBlack,Black,سیاه
+themeWhite,White,سفید
+themeGoldenBlack,Golden & Black,طلایی و سیاه
+themeGoldenWhite,Golden & White,طلایی و سفید
+reducedMotion,Reduced Motion,حرکت کمتر
+reducedMotionDesc,Disable non-essential pulse and transitions,حرکت و گذارهای غیرضروری را خاموش کنید
+hapticFeedback,Haptic Feedback,بازخورد لمسی
+hapticFeedbackDesc,Vibrate on interactions and button taps,لرزش هنگام لمس دکمه‌ها
+sectionLanguage,Language,زبان
+currentLanguage,App Language,زبان برنامه
+sectionMonitoring,Notification Monitoring,پایش اعلان
+monitoringActive,Monitoring active,پایش فعال
+monitoringActiveDesc,Active local listener for delivery status,شنونده محلی وضعیت تحویل فعال است
+monitoringUnavailable,Monitoring unavailable,پایش در دسترس نیست
+historyPrivacy,History Privacy,حریم خصوصی تاریخچه
+historyPrivacyMetadata,Metadata only (Recommended),فقط فراداده (پیشنهادی)
+historyPrivacyOptIn,Metadata + Titles,فراداده + عنوان‌ها
+diagnosticAlerts,Alert Frequency,بسامد هشدار
+alertsSilent,Silent Monitoring,پایش بی‌صدا
+alertsCriticalOnly,Critical Alerts Only,فقط هشدارهای مهم
+alertsAll,All Diagnostic Alerts,همه هشدارهای تشخیصی
+sectionAppManagement,Installed Apps,برنامه‌های نصب‌شده
+sectionAppManagementDesc,Configure individual app monitoring rules,قاعده پایش هر برنامه را تنظیم کنید
+sectionBattery,Battery & Background,باتری و پس‌زمینه
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,محدودیت باتری و راهنمای سازنده را ببینید
+openBatterySettings,Open Battery Settings,باز کردن تنظیمات باتری
+sectionDiagnostics,Diagnostics Engine,تشخیص
+runDiagnosticsNow,Run Full Check,اجرای بررسی کامل
+sectionPrivacyStorage,Privacy & Local Data,حریم خصوصی و داده محلی
+eventRetention,Event History Retention,مدت نگهداری تاریخچه
+retention1Day,1 Day,۱ روز
+retention7Days,7 Days,۷ روز
+retention30Days,30 Days,۳۰ روز
+clearHistory,Clear Event Log,پاک کردن گزارش رویداد
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,تاریخچه رویدادهای اعلان پاک شود؟
+resetSettings,Reset Preferences,بازنشانی ترجیحات
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,همه ترجیحات NEXGUARD به مقدار پیش‌فرض برگردد؟
+cancel,Cancel,لغو
+confirm,Confirm,تأیید
+save,Save,ذخیره
+changesSaved,Changes saved,تغییرها ذخیره شد
+changesNotSaved,Changes could not be saved,تغییرها ذخیره نشد
+appManagerTitle,Manage Apps,مدیریت برنامه‌ها
+searchApps,Search apps...,جستجوی برنامه‌ها...
+filterAll,All,همه
+filterUser,User,کاربر
+filterSystem,System,سیستم
+monitoredStatus,Monitored,تحت پایش
+unmonitoredStatus,Excluded,مستثنا
+openAppNotificationSettings,App Notification Settings,تنظیمات اعلان برنامه
+openAppDetailsSettings,System App Info,اطلاعات برنامه سیستم
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,برای اطمینان بیشتر، داده پس‌زمینه و مصرف باتری را بدون محدودیت بگذارید.
+noAppsFound,No applications match your filter,برنامه‌ای با این فیلتر پیدا نشد
+diagnosticReportTitle,Diagnostic Results,نتایج تشخیص
+allChecksPassed,All systems functioning normally,همه بخش‌ها عادی کار می‌کنند
+issuesDetected,Issues detected affecting reliability,مشکلاتی که اطمینان را کاهش می‌دهند پیدا شد
+manufacturerGuidance,Device Manufacturer Advice,راهنمای سازنده دستگاه
+protectionDetailsTitle,Monitoring Status,وضعیت پایش
+close,Close,بستن
+startProtection,Start Monitoring,شروع پایش
+protectInBackground,Start Monitoring,شروع پایش
+stopProtection,Stop Monitoring,توقف پایش
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD اکنون فعال است و اعلان‌ها را در پس‌زمینه پایش می‌کند.
+aboutTitle,About,درباره
+aboutVersion,Version,نسخه
+aboutGitHub,Source code,کد منبع
+aboutLicense,License,مجوز
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.",کتابخانه‌های متن‌باز: AndroidX، Jetpack Compose، Room، DataStore، WorkManager، Kotlin Coroutines.

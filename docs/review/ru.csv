@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Монитор состояния уведомлений
+selectLanguage,Choose Language,Выбор языка
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Выберите язык. Его можно изменить позже.
+searchLanguage,Search languages...,Поиск языков...
+continueButton,Continue,Продолжить
+nextButton,Next,Далее
+backButton,Back,Назад
+setupTitle,Permission Setup,Настройка разрешений
+setupSubtitle,Configure system access to keep notifications reliable,"Настройте доступ системы, чтобы уведомления оставались надежными"
+permissionNotificationListener,Notification Access (Required),Доступ к уведомлениям (обязательно)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,Позволяет NEXGUARD локально отслеживать события уведомлений и выявлять ограничения доставки.
+permissionGuardianNotifications,NEXGUARD Alerts,Оповещения NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,"Краткие диагностические уведомления, если доставка в фоне остановлена."
+permissionBatteryOptimization,Background Reliability,Надежность в фоне
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,"Исключите NEXGUARD из строгих ограничений батареи, чтобы он оставался подключен."
+permissionPrivacyNotice,Private & On-Device,Только на устройстве
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Только метаданные. NEXGUARD не сохраняет и не отправляет текст сообщений.
+grantAccess,Grant,Разрешить
+granted,Active,Активно
+notGranted,Action Needed,Нужно действие
+finishSetup,Complete Setup,Завершить настройку
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Перед продолжением выдайте обязательные разрешения.
+allPermissionsRequired,Notification Access is required to continue.,Для продолжения нужен доступ к уведомлениям.
+requiredPermissions,Required Permissions,Обязательные разрешения
+permissionDenied,Permission Denied,Разрешение отклонено
+missingNotificationAccess,Missing: Notification Access,Нет: доступа к уведомлениям
+statusProtectionActive,Monitoring Active,Мониторинг активен
+statusProtectionActiveDesc,Monitoring notification delivery in background,Доставка уведомлений отслеживается в фоне
+statusAccessRequired,Access Required,Нужен доступ
+statusAccessRequiredDesc,Grant notification access to start monitoring,"Разрешите доступ к уведомлениям, чтобы начать мониторинг"
+statusBatteryRestricted,Battery Restricted,Батарея ограничена
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,Оптимизация батареи может задерживать уведомления
+statusMonitoringPaused,Monitoring Paused,Мониторинг на паузе
+statusMonitoringPausedDesc,Notification monitoring is paused by user,Пользователь приостановил мониторинг уведомлений
+rowNotificationAccess,Notification Access,Доступ к уведомлениям
+rowMonitoringState,Monitoring State,Состояние мониторинга
+rowBatteryOptimization,Battery Policy,Политика батареи
+rowMonitoredApps,Monitored Apps,Отслеживаемые приложения
+rowLastDiagnostic,System Health,Состояние системы
+actionEnableProtection,Enable Monitoring,Включить мониторинг
+actionRunDiagnostics,Run Diagnostics,Запустить диагностику
+actionManageApps,Manage Apps,Управление приложениями
+actionSettings,Settings,Настройки
+actionFixPermissions,Fix Permissions,Исправить разрешения
+settingsTitle,Settings,Настройки
+sectionAppearance,Appearance,Оформление
+themeBlack,Black,Черная
+themeWhite,White,Белая
+themeGoldenBlack,Golden & Black,Золото и черный
+themeGoldenWhite,Golden & White,Золото и белый
+reducedMotion,Reduced Motion,Меньше анимации
+reducedMotionDesc,Disable non-essential pulse and transitions,Отключить лишние анимации и переходы
+hapticFeedback,Haptic Feedback,Виброотклик
+hapticFeedbackDesc,Vibrate on interactions and button taps,Вибрация при нажатии кнопок
+sectionLanguage,Language,Язык
+currentLanguage,App Language,Язык приложения
+sectionMonitoring,Notification Monitoring,Мониторинг уведомлений
+monitoringActive,Monitoring active,Мониторинг активен
+monitoringActiveDesc,Active local listener for delivery status,Локальный слушатель проверяет состояние доставки
+monitoringUnavailable,Monitoring unavailable,Мониторинг недоступен
+historyPrivacy,History Privacy,Конфиденциальность истории
+historyPrivacyMetadata,Metadata only (Recommended),Только метаданные (рекомендуется)
+historyPrivacyOptIn,Metadata + Titles,Метаданные + заголовки
+diagnosticAlerts,Alert Frequency,Частота оповещений
+alertsSilent,Silent Monitoring,Тихий мониторинг
+alertsCriticalOnly,Critical Alerts Only,Только важные оповещения
+alertsAll,All Diagnostic Alerts,Все диагностические оповещения
+sectionAppManagement,Installed Apps,Установленные приложения
+sectionAppManagementDesc,Configure individual app monitoring rules,Настройте правила мониторинга для каждого приложения
+sectionBattery,Battery & Background,Батарея и фон
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Проверьте ограничения батареи и советы производителя
+openBatterySettings,Open Battery Settings,Открыть настройки батареи
+sectionDiagnostics,Diagnostics Engine,Диагностика
+runDiagnosticsNow,Run Full Check,Полная проверка
+sectionPrivacyStorage,Privacy & Local Data,Конфиденциальность и локальные данные
+eventRetention,Event History Retention,Срок хранения истории
+retention1Day,1 Day,1 день
+retention7Days,7 Days,7 дней
+retention30Days,30 Days,30 дней
+clearHistory,Clear Event Log,Очистить журнал событий
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Очистить историю событий уведомлений?
+resetSettings,Reset Preferences,Сбросить настройки
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Вернуть все настройки NEXGUARD к значениям по умолчанию?
+cancel,Cancel,Отмена
+confirm,Confirm,Подтвердить
+save,Save,Сохранить
+changesSaved,Changes saved,Изменения сохранены
+changesNotSaved,Changes could not be saved,Не удалось сохранить изменения
+appManagerTitle,Manage Apps,Управление приложениями
+searchApps,Search apps...,Поиск приложений...
+filterAll,All,Все
+filterUser,User,Пользователь
+filterSystem,System,Система
+monitoredStatus,Monitored,Отслеживается
+unmonitoredStatus,Excluded,Исключено
+openAppNotificationSettings,App Notification Settings,Настройки уведомлений приложения
+openAppDetailsSettings,System App Info,Сведения о системном приложении
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,Для надежности разрешите неограниченные фоновые данные и расход батареи.
+noAppsFound,No applications match your filter,Нет приложений по этому фильтру
+diagnosticReportTitle,Diagnostic Results,Результаты диагностики
+allChecksPassed,All systems functioning normally,Все проверки в норме
+issuesDetected,Issues detected affecting reliability,"Найдены проблемы, влияющие на надежность"
+manufacturerGuidance,Device Manufacturer Advice,Совет производителя устройства
+protectionDetailsTitle,Monitoring Status,Состояние мониторинга
+close,Close,Закрыть
+startProtection,Start Monitoring,Начать мониторинг
+protectInBackground,Start Monitoring,Начать мониторинг
+stopProtection,Stop Monitoring,Остановить мониторинг
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD активен и отслеживает уведомления в фоне.
+aboutTitle,About,О приложении
+aboutVersion,Version,Версия
+aboutGitHub,Source code,Исходный код
+aboutLicense,License,Лицензия
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Библиотеки с открытым кодом: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."

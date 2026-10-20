@@ -21,7 +21,7 @@ These features are implemented in the current source:
 - Schedules diagnostic work again after reboot with WorkManager.
 - Lets you exclude apps from monitoring.
 - Includes language selection, theme settings, and an onboarding permission flow.
-- Ships interface strings for English, Simplified Chinese, Traditional Chinese, Russian, Portuguese (Brazil), Urdu, Arabic, Hindi, Spanish, French, German, Turkish, Indonesian, Japanese, and Korean.
+- Ships 25 language options. All text is translated, but the translations are machine-generated and not yet reviewed by native speakers.
 
 ## Tested on
 
@@ -178,7 +178,7 @@ The current release candidate is **v1.0.3**. The signed APK SHA-256 will be publ
 
 ## Version history
 
-- **1.0.3** — wording cleanup, system apps off by default for new installs, backup exclusions, About section.
+- **1.0.3** — wording cleanup, 25 language options with machine-generated translations not yet reviewed by native speakers, system apps off by default for new installs, backup exclusions, About section.
 - **1.0.2** — namespace cleanup, unused Google Services removal, documentation update.
 - **1.0.1** — package name finalized and signed release published.
 - **1.0.0** — first signed release.

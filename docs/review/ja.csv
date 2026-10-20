@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,通知の状態モニター
+selectLanguage,Choose Language,言語を選択
+selectLanguageDesc,Select your preferred language. You can change this anytime.,言語を選びます。後から変更できます。
+searchLanguage,Search languages...,言語を検索...
+continueButton,Continue,続行
+nextButton,Next,次へ
+backButton,Back,戻る
+setupTitle,Permission Setup,権限の設定
+setupSubtitle,Configure system access to keep notifications reliable,通知を安定させるため、システム権限を設定します
+permissionNotificationListener,Notification Access (Required),通知へのアクセス（必須）
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,NEXGUARD が通知イベントを端末内で監視し、配信制限を検出できるようにします。
+permissionGuardianNotifications,NEXGUARD Alerts,NEXGUARD の通知
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,バックグラウンド配信が止まると、短い診断通知を受け取ります。
+permissionBatteryOptimization,Background Reliability,バックグラウンドの安定性
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,接続を保つため、NEXGUARD を厳しい電池制限から除外します。
+permissionPrivacyNotice,Private & On-Device,端末内で非公開
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,メタデータのみ。NEXGUARD はメッセージ本文を保存も送信もしません。
+grantAccess,Grant,許可
+granted,Active,有効
+notGranted,Action Needed,操作が必要
+finishSetup,Complete Setup,設定を完了
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,続行する前に必須の権限を許可してください。
+allPermissionsRequired,Notification Access is required to continue.,続行には通知へのアクセスが必要です。
+requiredPermissions,Required Permissions,必須の権限
+permissionDenied,Permission Denied,権限が拒否されました
+missingNotificationAccess,Missing: Notification Access,未設定: 通知へのアクセス
+statusProtectionActive,Monitoring Active,監視中
+statusProtectionActiveDesc,Monitoring notification delivery in background,バックグラウンドで通知配信を監視しています
+statusAccessRequired,Access Required,アクセスが必要
+statusAccessRequiredDesc,Grant notification access to start monitoring,監視を始めるには通知へのアクセスを許可してください
+statusBatteryRestricted,Battery Restricted,電池が制限中
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,電池の最適化で通知が遅れることがあります
+statusMonitoringPaused,Monitoring Paused,監視を一時停止
+statusMonitoringPausedDesc,Notification monitoring is paused by user,ユーザーが通知監視を一時停止しました
+rowNotificationAccess,Notification Access,通知へのアクセス
+rowMonitoringState,Monitoring State,監視状態
+rowBatteryOptimization,Battery Policy,電池ポリシー
+rowMonitoredApps,Monitored Apps,監視中のアプリ
+rowLastDiagnostic,System Health,システムの状態
+actionEnableProtection,Enable Monitoring,監視を有効化
+actionRunDiagnostics,Run Diagnostics,診断を実行
+actionManageApps,Manage Apps,アプリを管理
+actionSettings,Settings,設定
+actionFixPermissions,Fix Permissions,権限を修正
+settingsTitle,Settings,設定
+sectionAppearance,Appearance,外観
+themeBlack,Black,黒
+themeWhite,White,白
+themeGoldenBlack,Golden & Black,ゴールドと黒
+themeGoldenWhite,Golden & White,ゴールドと白
+reducedMotion,Reduced Motion,アニメーションを減らす
+reducedMotionDesc,Disable non-essential pulse and transitions,不要な動きと切り替えをオフにします
+hapticFeedback,Haptic Feedback,触覚フィードバック
+hapticFeedbackDesc,Vibrate on interactions and button taps,ボタン操作時に振動します
+sectionLanguage,Language,言語
+currentLanguage,App Language,アプリの言語
+sectionMonitoring,Notification Monitoring,通知の監視
+monitoringActive,Monitoring active,監視中
+monitoringActiveDesc,Active local listener for delivery status,端末内のリスナーが配信状態を確認しています
+monitoringUnavailable,Monitoring unavailable,監視できません
+historyPrivacy,History Privacy,履歴のプライバシー
+historyPrivacyMetadata,Metadata only (Recommended),メタデータのみ（推奨）
+historyPrivacyOptIn,Metadata + Titles,メタデータ + タイトル
+diagnosticAlerts,Alert Frequency,通知の頻度
+alertsSilent,Silent Monitoring,サイレント監視
+alertsCriticalOnly,Critical Alerts Only,重要な通知のみ
+alertsAll,All Diagnostic Alerts,すべての診断通知
+sectionAppManagement,Installed Apps,インストール済みアプリ
+sectionAppManagementDesc,Configure individual app monitoring rules,アプリごとの監視ルールを設定します
+sectionBattery,Battery & Background,電池とバックグラウンド
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,電池制限とメーカー案内を確認します
+openBatterySettings,Open Battery Settings,電池設定を開く
+sectionDiagnostics,Diagnostics Engine,診断
+runDiagnosticsNow,Run Full Check,完全チェックを実行
+sectionPrivacyStorage,Privacy & Local Data,プライバシーと端末内データ
+eventRetention,Event History Retention,履歴の保持期間
+retention1Day,1 Day,1 日
+retention7Days,7 Days,7 日
+retention30Days,30 Days,30 日
+clearHistory,Clear Event Log,イベント履歴を消去
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,通知イベントの履歴を消去しますか？
+resetSettings,Reset Preferences,設定をリセット
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,NEXGUARD の設定をすべて初期値に戻しますか？
+cancel,Cancel,キャンセル
+confirm,Confirm,確認
+save,Save,保存
+changesSaved,Changes saved,変更を保存しました
+changesNotSaved,Changes could not be saved,変更を保存できませんでした
+appManagerTitle,Manage Apps,アプリを管理
+searchApps,Search apps...,アプリを検索...
+filterAll,All,すべて
+filterUser,User,ユーザー
+filterSystem,System,システム
+monitoredStatus,Monitored,監視中
+unmonitoredStatus,Excluded,除外
+openAppNotificationSettings,App Notification Settings,アプリの通知設定
+openAppDetailsSettings,System App Info,システムアプリ情報
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,信頼性を高めるには、バックグラウンドデータと電池使用を制限なしにしてください。
+noAppsFound,No applications match your filter,条件に合うアプリがありません
+diagnosticReportTitle,Diagnostic Results,診断結果
+allChecksPassed,All systems functioning normally,すべての確認は正常です
+issuesDetected,Issues detected affecting reliability,信頼性に影響する問題が見つかりました
+manufacturerGuidance,Device Manufacturer Advice,端末メーカーの案内
+protectionDetailsTitle,Monitoring Status,監視状態
+close,Close,閉じる
+startProtection,Start Monitoring,監視を開始
+protectInBackground,Start Monitoring,監視を開始
+stopProtection,Stop Monitoring,監視を停止
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD が有効になり、バックグラウンドで通知を監視しています。
+aboutTitle,About,このアプリについて
+aboutVersion,Version,バージョン
+aboutGitHub,Source code,ソースコード
+aboutLicense,License,ライセンス
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.",オープンソースライブラリ: AndroidX、Jetpack Compose、Room、DataStore、WorkManager、Kotlin Coroutines。

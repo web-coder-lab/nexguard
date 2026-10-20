@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,알림 상태 모니터
+selectLanguage,Choose Language,언어 선택
+selectLanguageDesc,Select your preferred language. You can change this anytime.,언어를 선택하세요. 나중에 바꿀 수 있습니다.
+searchLanguage,Search languages...,언어 검색...
+continueButton,Continue,계속
+nextButton,Next,다음
+backButton,Back,뒤로
+setupTitle,Permission Setup,권한 설정
+setupSubtitle,Configure system access to keep notifications reliable,알림이 안정적으로 오도록 시스템 권한을 설정하세요
+permissionNotificationListener,Notification Access (Required),알림 접근(필수)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,NEXGUARD가 알림 이벤트를 기기에서 모니터링하여 전달 제한을 확인하게 합니다.
+permissionGuardianNotifications,NEXGUARD Alerts,NEXGUARD 알림
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,백그라운드 전달이 막히면 짧은 진단 알림을 받습니다.
+permissionBatteryOptimization,Background Reliability,백그라운드 안정성
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,연결을 유지하도록 NEXGUARD를 엄격한 배터리 제한에서 제외하세요.
+permissionPrivacyNotice,Private & On-Device,기기 내 비공개
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,메타데이터만 사용합니다. NEXGUARD는 메시지 본문을 저장하거나 보내지 않습니다.
+grantAccess,Grant,허용
+granted,Active,활성
+notGranted,Action Needed,조치 필요
+finishSetup,Complete Setup,설정 완료
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,계속하기 전에 필수 권한을 허용하세요.
+allPermissionsRequired,Notification Access is required to continue.,계속하려면 알림 접근이 필요합니다.
+requiredPermissions,Required Permissions,필수 권한
+permissionDenied,Permission Denied,권한이 거부됨
+missingNotificationAccess,Missing: Notification Access,없음: 알림 접근
+statusProtectionActive,Monitoring Active,모니터링 중
+statusProtectionActiveDesc,Monitoring notification delivery in background,백그라운드에서 알림 전달을 모니터링하는 중
+statusAccessRequired,Access Required,접근 필요
+statusAccessRequiredDesc,Grant notification access to start monitoring,모니터링을 시작하려면 알림 접근을 허용하세요
+statusBatteryRestricted,Battery Restricted,배터리 제한됨
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,배터리 최적화가 알림을 지연할 수 있습니다
+statusMonitoringPaused,Monitoring Paused,모니터링 일시중지
+statusMonitoringPausedDesc,Notification monitoring is paused by user,사용자가 알림 모니터링을 일시중지했습니다
+rowNotificationAccess,Notification Access,알림 접근
+rowMonitoringState,Monitoring State,모니터링 상태
+rowBatteryOptimization,Battery Policy,배터리 정책
+rowMonitoredApps,Monitored Apps,모니터링 중인 앱
+rowLastDiagnostic,System Health,시스템 상태
+actionEnableProtection,Enable Monitoring,모니터링 사용
+actionRunDiagnostics,Run Diagnostics,진단 실행
+actionManageApps,Manage Apps,앱 관리
+actionSettings,Settings,설정
+actionFixPermissions,Fix Permissions,권한 수정
+settingsTitle,Settings,설정
+sectionAppearance,Appearance,모양
+themeBlack,Black,검정
+themeWhite,White,흰색
+themeGoldenBlack,Golden & Black,골드와 검정
+themeGoldenWhite,Golden & White,골드와 흰색
+reducedMotion,Reduced Motion,동작 줄이기
+reducedMotionDesc,Disable non-essential pulse and transitions,불필요한 애니메이션과 전환을 끕니다
+hapticFeedback,Haptic Feedback,햅틱 피드백
+hapticFeedbackDesc,Vibrate on interactions and button taps,버튼을 누를 때 진동
+sectionLanguage,Language,언어
+currentLanguage,App Language,앱 언어
+sectionMonitoring,Notification Monitoring,알림 모니터링
+monitoringActive,Monitoring active,모니터링 중
+monitoringActiveDesc,Active local listener for delivery status,로컬 리스너가 전달 상태를 확인합니다
+monitoringUnavailable,Monitoring unavailable,모니터링 불가
+historyPrivacy,History Privacy,기록 개인정보
+historyPrivacyMetadata,Metadata only (Recommended),메타데이터만(권장)
+historyPrivacyOptIn,Metadata + Titles,메타데이터 + 제목
+diagnosticAlerts,Alert Frequency,알림 빈도
+alertsSilent,Silent Monitoring,무음 모니터링
+alertsCriticalOnly,Critical Alerts Only,중요 알림만
+alertsAll,All Diagnostic Alerts,모든 진단 알림
+sectionAppManagement,Installed Apps,설치된 앱
+sectionAppManagementDesc,Configure individual app monitoring rules,앱별 모니터링 규칙을 설정합니다
+sectionBattery,Battery & Background,배터리와 백그라운드
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,배터리 제한과 제조사 안내를 확인하세요
+openBatterySettings,Open Battery Settings,배터리 설정 열기
+sectionDiagnostics,Diagnostics Engine,진단
+runDiagnosticsNow,Run Full Check,전체 검사 실행
+sectionPrivacyStorage,Privacy & Local Data,개인정보와 로컬 데이터
+eventRetention,Event History Retention,기록 보관 기간
+retention1Day,1 Day,1일
+retention7Days,7 Days,7일
+retention30Days,30 Days,30일
+clearHistory,Clear Event Log,이벤트 기록 지우기
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,알림 이벤트 기록을 지울까요?
+resetSettings,Reset Preferences,환경설정 초기화
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,모든 NEXGUARD 환경설정을 기본값으로 되돌릴까요?
+cancel,Cancel,취소
+confirm,Confirm,확인
+save,Save,저장
+changesSaved,Changes saved,변경사항이 저장됨
+changesNotSaved,Changes could not be saved,변경사항을 저장할 수 없음
+appManagerTitle,Manage Apps,앱 관리
+searchApps,Search apps...,앱 검색...
+filterAll,All,전체
+filterUser,User,사용자
+filterSystem,System,시스템
+monitoredStatus,Monitored,모니터링 중
+unmonitoredStatus,Excluded,제외됨
+openAppNotificationSettings,App Notification Settings,앱 알림 설정
+openAppDetailsSettings,System App Info,시스템 앱 정보
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,안정성을 높이려면 백그라운드 데이터와 배터리 사용을 제한 없음으로 두세요.
+noAppsFound,No applications match your filter,필터와 일치하는 앱이 없습니다
+diagnosticReportTitle,Diagnostic Results,진단 결과
+allChecksPassed,All systems functioning normally,모든 검사가 정상입니다
+issuesDetected,Issues detected affecting reliability,안정성에 영향을 주는 문제가 발견됨
+manufacturerGuidance,Device Manufacturer Advice,기기 제조사 안내
+protectionDetailsTitle,Monitoring Status,모니터링 상태
+close,Close,닫기
+startProtection,Start Monitoring,모니터링 시작
+protectInBackground,Start Monitoring,모니터링 시작
+stopProtection,Stop Monitoring,모니터링 중지
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD가 활성화되어 백그라운드에서 알림을 모니터링합니다.
+aboutTitle,About,정보
+aboutVersion,Version,버전
+aboutGitHub,Source code,소스 코드
+aboutLicense,License,라이선스
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","오픈소스 라이브러리: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."

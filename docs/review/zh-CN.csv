@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,通知健康监测
+selectLanguage,Choose Language,选择语言
+selectLanguageDesc,Select your preferred language. You can change this anytime.,选择首选语言。可随时更改。
+searchLanguage,Search languages...,搜索语言...
+continueButton,Continue,继续
+nextButton,Next,下一步
+backButton,Back,返回
+setupTitle,Permission Setup,权限设置
+setupSubtitle,Configure system access to keep notifications reliable,设置系统权限，让通知更可靠
+permissionNotificationListener,Notification Access (Required),通知使用权（必需）
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,允许 NEXGUARD 在本地监测应用通知事件，以发现投递限制。
+permissionGuardianNotifications,NEXGUARD Alerts,NEXGUARD 提醒
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,后台投递受阻时收到简短诊断通知。
+permissionBatteryOptimization,Background Reliability,后台可靠性
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,将 NEXGUARD 排除在严格电池限制之外，以便保持连接。
+permissionPrivacyNotice,Private & On-Device,本地且私密
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,仅元数据。NEXGUARD 不保存也不发送消息正文。
+grantAccess,Grant,允许
+granted,Active,已启用
+notGranted,Action Needed,需要操作
+finishSetup,Complete Setup,完成设置
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,继续前请授予必需权限。
+allPermissionsRequired,Notification Access is required to continue.,继续需要通知使用权。
+requiredPermissions,Required Permissions,必需权限
+permissionDenied,Permission Denied,权限被拒绝
+missingNotificationAccess,Missing: Notification Access,缺少：通知使用权
+statusProtectionActive,Monitoring Active,监测中
+statusProtectionActiveDesc,Monitoring notification delivery in background,正在后台监测通知投递
+statusAccessRequired,Access Required,需要权限
+statusAccessRequiredDesc,Grant notification access to start monitoring,授予通知使用权以开始监测
+statusBatteryRestricted,Battery Restricted,电池受限
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,电池优化可能会延迟通知
+statusMonitoringPaused,Monitoring Paused,监测已暂停
+statusMonitoringPausedDesc,Notification monitoring is paused by user,用户已暂停通知监测
+rowNotificationAccess,Notification Access,通知使用权
+rowMonitoringState,Monitoring State,监测状态
+rowBatteryOptimization,Battery Policy,电池策略
+rowMonitoredApps,Monitored Apps,监测中的应用
+rowLastDiagnostic,System Health,系统健康
+actionEnableProtection,Enable Monitoring,开启监测
+actionRunDiagnostics,Run Diagnostics,运行诊断
+actionManageApps,Manage Apps,管理应用
+actionSettings,Settings,设置
+actionFixPermissions,Fix Permissions,修复权限
+settingsTitle,Settings,设置
+sectionAppearance,Appearance,外观
+themeBlack,Black,黑色
+themeWhite,White,白色
+themeGoldenBlack,Golden & Black,金色与黑色
+themeGoldenWhite,Golden & White,金色与白色
+reducedMotion,Reduced Motion,减少动画
+reducedMotionDesc,Disable non-essential pulse and transitions,关闭非必要动画和过渡
+hapticFeedback,Haptic Feedback,触感反馈
+hapticFeedbackDesc,Vibrate on interactions and button taps,点击按钮时振动
+sectionLanguage,Language,语言
+currentLanguage,App Language,应用语言
+sectionMonitoring,Notification Monitoring,通知监测
+monitoringActive,Monitoring active,监测中
+monitoringActiveDesc,Active local listener for delivery status,本地监听器正在检查投递状态
+monitoringUnavailable,Monitoring unavailable,无法监测
+historyPrivacy,History Privacy,历史隐私
+historyPrivacyMetadata,Metadata only (Recommended),仅元数据（推荐）
+historyPrivacyOptIn,Metadata + Titles,元数据 + 标题
+diagnosticAlerts,Alert Frequency,提醒频率
+alertsSilent,Silent Monitoring,静默监测
+alertsCriticalOnly,Critical Alerts Only,仅重要提醒
+alertsAll,All Diagnostic Alerts,全部诊断提醒
+sectionAppManagement,Installed Apps,已安装应用
+sectionAppManagementDesc,Configure individual app monitoring rules,设置各应用的监测规则
+sectionBattery,Battery & Background,电池与后台
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,查看设备电池限制和厂商指引
+openBatterySettings,Open Battery Settings,打开电池设置
+sectionDiagnostics,Diagnostics Engine,诊断
+runDiagnosticsNow,Run Full Check,运行完整检查
+sectionPrivacyStorage,Privacy & Local Data,隐私与本地数据
+eventRetention,Event History Retention,事件历史保留
+retention1Day,1 Day,1 天
+retention7Days,7 Days,7 天
+retention30Days,30 Days,30 天
+clearHistory,Clear Event Log,清除事件记录
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,确定清除通知事件历史吗？
+resetSettings,Reset Preferences,重置偏好
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,将所有 NEXGUARD 偏好恢复为默认值？
+cancel,Cancel,取消
+confirm,Confirm,确认
+save,Save,保存
+changesSaved,Changes saved,更改已保存
+changesNotSaved,Changes could not be saved,无法保存更改
+appManagerTitle,Manage Apps,管理应用
+searchApps,Search apps...,搜索应用...
+filterAll,All,全部
+filterUser,User,用户
+filterSystem,System,系统
+monitoredStatus,Monitored,监测中
+unmonitoredStatus,Excluded,已排除
+openAppNotificationSettings,App Notification Settings,应用通知设置
+openAppDetailsSettings,System App Info,系统应用信息
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,为提高可靠性，请允许不受限制的后台数据和电池使用。
+noAppsFound,No applications match your filter,没有符合筛选条件的应用
+diagnosticReportTitle,Diagnostic Results,诊断结果
+allChecksPassed,All systems functioning normally,各项检查正常
+issuesDetected,Issues detected affecting reliability,发现影响可靠性的问题
+manufacturerGuidance,Device Manufacturer Advice,设备厂商建议
+protectionDetailsTitle,Monitoring Status,监测状态
+close,Close,关闭
+startProtection,Start Monitoring,开始监测
+protectInBackground,Start Monitoring,开始监测
+stopProtection,Stop Monitoring,停止监测
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD 已启用，正在后台监测通知。
+aboutTitle,About,关于
+aboutVersion,Version,版本
+aboutGitHub,Source code,源代码
+aboutLicense,License,许可
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.",开源库：AndroidX、Jetpack Compose、Room、DataStore、WorkManager、Kotlin Coroutines。

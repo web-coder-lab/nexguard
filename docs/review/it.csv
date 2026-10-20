@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Monitor dello stato delle notifiche
+selectLanguage,Choose Language,Scegli lingua
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Scegli la lingua. Puoi cambiarla dopo.
+searchLanguage,Search languages...,Cerca lingue...
+continueButton,Continue,Continua
+nextButton,Next,Avanti
+backButton,Back,Indietro
+setupTitle,Permission Setup,Configurazione autorizzazioni
+setupSubtitle,Configure system access to keep notifications reliable,Imposta l'accesso di sistema per tenere affidabili le notifiche
+permissionNotificationListener,Notification Access (Required),Accesso alle notifiche (obbligatorio)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,Consente a NEXGUARD di monitorare in locale gli eventi di notifica per rilevare restrizioni di consegna.
+permissionGuardianNotifications,NEXGUARD Alerts,Avvisi NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,Ricevi note diagnostiche brevi se la consegna in background è bloccata.
+permissionBatteryOptimization,Background Reliability,Affidabilità in background
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,Escludi NEXGUARD dalle restrizioni severe della batteria perché resti connesso.
+permissionPrivacyNotice,Private & On-Device,Privato e sul dispositivo
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Solo metadati. NEXGUARD non salva né invia il testo dei messaggi.
+grantAccess,Grant,Consenti
+granted,Active,Attivo
+notGranted,Action Needed,Azione necessaria
+finishSetup,Complete Setup,Completa configurazione
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Concedi le autorizzazioni obbligatorie prima di continuare.
+allPermissionsRequired,Notification Access is required to continue.,L'accesso alle notifiche è necessario per continuare.
+requiredPermissions,Required Permissions,Autorizzazioni obbligatorie
+permissionDenied,Permission Denied,Autorizzazione negata
+missingNotificationAccess,Missing: Notification Access,Manca: accesso alle notifiche
+statusProtectionActive,Monitoring Active,Monitoraggio attivo
+statusProtectionActiveDesc,Monitoring notification delivery in background,Monitoraggio della consegna notifiche in background
+statusAccessRequired,Access Required,Accesso necessario
+statusAccessRequiredDesc,Grant notification access to start monitoring,Concedi l'accesso alle notifiche per avviare il monitoraggio
+statusBatteryRestricted,Battery Restricted,Batteria limitata
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,L'ottimizzazione batteria può ritardare le notifiche
+statusMonitoringPaused,Monitoring Paused,Monitoraggio in pausa
+statusMonitoringPausedDesc,Notification monitoring is paused by user,L'utente ha messo in pausa il monitoraggio
+rowNotificationAccess,Notification Access,Accesso alle notifiche
+rowMonitoringState,Monitoring State,Stato del monitoraggio
+rowBatteryOptimization,Battery Policy,Criterio batteria
+rowMonitoredApps,Monitored Apps,App monitorate
+rowLastDiagnostic,System Health,Stato del sistema
+actionEnableProtection,Enable Monitoring,Attiva monitoraggio
+actionRunDiagnostics,Run Diagnostics,Esegui diagnostica
+actionManageApps,Manage Apps,Gestisci app
+actionSettings,Settings,Impostazioni
+actionFixPermissions,Fix Permissions,Correggi autorizzazioni
+settingsTitle,Settings,Impostazioni
+sectionAppearance,Appearance,Aspetto
+themeBlack,Black,Nero
+themeWhite,White,Bianco
+themeGoldenBlack,Golden & Black,Oro e nero
+themeGoldenWhite,Golden & White,Oro e bianco
+reducedMotion,Reduced Motion,Meno movimento
+reducedMotionDesc,Disable non-essential pulse and transitions,Disattiva animazioni e transizioni non essenziali
+hapticFeedback,Haptic Feedback,Feedback aptico
+hapticFeedbackDesc,Vibrate on interactions and button taps,Vibrazione alla pressione dei pulsanti
+sectionLanguage,Language,Lingua
+currentLanguage,App Language,Lingua dell'app
+sectionMonitoring,Notification Monitoring,Monitoraggio notifiche
+monitoringActive,Monitoring active,Monitoraggio attivo
+monitoringActiveDesc,Active local listener for delivery status,Il listener locale controlla lo stato di consegna
+monitoringUnavailable,Monitoring unavailable,Monitoraggio non disponibile
+historyPrivacy,History Privacy,Privacy della cronologia
+historyPrivacyMetadata,Metadata only (Recommended),Solo metadati (consigliato)
+historyPrivacyOptIn,Metadata + Titles,Metadati + titoli
+diagnosticAlerts,Alert Frequency,Frequenza avvisi
+alertsSilent,Silent Monitoring,Monitoraggio silenzioso
+alertsCriticalOnly,Critical Alerts Only,Solo avvisi importanti
+alertsAll,All Diagnostic Alerts,Tutti gli avvisi diagnostici
+sectionAppManagement,Installed Apps,App installate
+sectionAppManagementDesc,Configure individual app monitoring rules,Imposta le regole di monitoraggio per ogni app
+sectionBattery,Battery & Background,Batteria e background
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Controlla restrizioni batteria e guida del produttore
+openBatterySettings,Open Battery Settings,Apri impostazioni batteria
+sectionDiagnostics,Diagnostics Engine,Diagnostica
+runDiagnosticsNow,Run Full Check,Esegui controllo completo
+sectionPrivacyStorage,Privacy & Local Data,Privacy e dati locali
+eventRetention,Event History Retention,Conservazione cronologia
+retention1Day,1 Day,1 giorno
+retention7Days,7 Days,7 giorni
+retention30Days,30 Days,30 giorni
+clearHistory,Clear Event Log,Cancella registro eventi
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Cancellare la cronologia degli eventi di notifica?
+resetSettings,Reset Preferences,Reimposta preferenze
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Ripristinare tutte le preferenze NEXGUARD?
+cancel,Cancel,Annulla
+confirm,Confirm,Conferma
+save,Save,Salva
+changesSaved,Changes saved,Modifiche salvate
+changesNotSaved,Changes could not be saved,Impossibile salvare le modifiche
+appManagerTitle,Manage Apps,Gestisci app
+searchApps,Search apps...,Cerca app...
+filterAll,All,Tutte
+filterUser,User,Utente
+filterSystem,System,Sistema
+monitoredStatus,Monitored,Monitorata
+unmonitoredStatus,Excluded,Esclusa
+openAppNotificationSettings,App Notification Settings,Impostazioni notifiche app
+openAppDetailsSettings,System App Info,Info app di sistema
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,"Per maggiore affidabilità, consenti dati in background e uso batteria senza restrizioni."
+noAppsFound,No applications match your filter,Nessuna app corrisponde al filtro
+diagnosticReportTitle,Diagnostic Results,Risultati diagnostica
+allChecksPassed,All systems functioning normally,Tutti i controlli sono normali
+issuesDetected,Issues detected affecting reliability,Problemi rilevati che influiscono sull'affidabilità
+manufacturerGuidance,Device Manufacturer Advice,Guida del produttore
+protectionDetailsTitle,Monitoring Status,Stato del monitoraggio
+close,Close,Chiudi
+startProtection,Start Monitoring,Avvia monitoraggio
+protectInBackground,Start Monitoring,Avvia monitoraggio
+stopProtection,Stop Monitoring,Interrompi monitoraggio
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD è attivo e monitora le notifiche in background.
+aboutTitle,About,Informazioni
+aboutVersion,Version,Versione
+aboutGitHub,Source code,Codice sorgente
+aboutLicense,License,Licenza
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Librerie open source: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."

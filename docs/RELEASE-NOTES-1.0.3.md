@@ -4,6 +4,7 @@
 
 - Settings footer uses the real version from `BuildConfig`.
 - English interface uses monitoring wording.
+- 25 language options. All text is translated, but the translations are machine-generated and not yet reviewed by native speakers.
 - New installs exclude system apps from monitoring by default.
 - Backup rules exclude the local notification database and preferences.
 - About section shows version, GitHub link, and GPL-3.0-only.

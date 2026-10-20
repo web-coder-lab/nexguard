@@ -4,6 +4,7 @@
 
 - Settings footer now shows `NEXGUARD` and `BuildConfig.VERSION_NAME`.
 - English user-visible wording uses monitoring language instead of protection language.
+- 25 language options. All text is translated, but the translations are machine-generated and not yet reviewed by native speakers.
 - New installs monitor user-installed apps by default. System apps start excluded. Existing choices are not overwritten.
 - Backup and device-transfer rules exclude the notification database, preferences, and DataStore file.
 - Settings includes an About section with version, source link, and GPL-3.0-only.

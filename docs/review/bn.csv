@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,নোটিফিকেশন স্বাস্থ্য মনিটর
+selectLanguage,Choose Language,ভাষা বেছে নিন
+selectLanguageDesc,Select your preferred language. You can change this anytime.,ভাষা বেছে নিন। পরে বদলাতে পারবেন।
+searchLanguage,Search languages...,ভাষা খুঁজুন...
+continueButton,Continue,চালিয়ে যান
+nextButton,Next,পরবর্তী
+backButton,Back,পিছনে
+setupTitle,Permission Setup,অনুমতি সেটআপ
+setupSubtitle,Configure system access to keep notifications reliable,নোটিফিকেশন নির্ভরযোগ্য রাখতে সিস্টেম অ্যাক্সেস সেট করুন
+permissionNotificationListener,Notification Access (Required),নোটিফিকেশন অ্যাক্সেস (আবশ্যক)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,NEXGUARD-কে ডিভাইসে নোটিফিকেশন ইভেন্ট দেখতে দেয় যাতে ডেলিভারি সীমাবদ্ধতা ধরা পড়ে।
+permissionGuardianNotifications,NEXGUARD Alerts,NEXGUARD সতর্কতা
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,পটভূমির ডেলিভারি আটকালে সংক্ষিপ্ত ডায়াগনস্টিক নোট পান।
+permissionBatteryOptimization,Background Reliability,পটভূমির নির্ভরযোগ্যতা
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,সংযুক্ত থাকতে NEXGUARD-কে কড়া ব্যাটারি সীমা থেকে বাদ দিন।
+permissionPrivacyNotice,Private & On-Device,ব্যক্তিগত এবং ডিভাইসে
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,শুধু মেটাডেটা। NEXGUARD বার্তার লেখা সংরক্ষণ বা পাঠায় না।
+grantAccess,Grant,অনুমতি দিন
+granted,Active,সক্রিয়
+notGranted,Action Needed,পদক্ষেপ দরকার
+finishSetup,Complete Setup,সেটআপ শেষ করুন
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,চালিয়ে যাওয়ার আগে আবশ্যক অনুমতি দিন।
+allPermissionsRequired,Notification Access is required to continue.,চালিয়ে যেতে নোটিফিকেশন অ্যাক্সেস দরকার।
+requiredPermissions,Required Permissions,আবশ্যক অনুমতি
+permissionDenied,Permission Denied,অনুমতি প্রত্যাখ্যাত
+missingNotificationAccess,Missing: Notification Access,নেই: নোটিফিকেশন অ্যাক্সেস
+statusProtectionActive,Monitoring Active,নজরদারি সক্রিয়
+statusProtectionActiveDesc,Monitoring notification delivery in background,পটভূমিতে নোটিফিকেশন ডেলিভারি নজরদারি হচ্ছে
+statusAccessRequired,Access Required,অ্যাক্সেস দরকার
+statusAccessRequiredDesc,Grant notification access to start monitoring,নজরদারি শুরু করতে নোটিফিকেশন অ্যাক্সেস দিন
+statusBatteryRestricted,Battery Restricted,ব্যাটারি সীমিত
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,ব্যাটারি অপটিমাইজেশন নোটিফিকেশন দেরি করাতে পারে
+statusMonitoringPaused,Monitoring Paused,নজরদারি বিরতি
+statusMonitoringPausedDesc,Notification monitoring is paused by user,ব্যবহারকারী নোটিফিকেশন নজরদারি থামিয়েছেন
+rowNotificationAccess,Notification Access,নোটিফিকেশন অ্যাক্সেস
+rowMonitoringState,Monitoring State,নজরদারির অবস্থা
+rowBatteryOptimization,Battery Policy,ব্যাটারি নীতি
+rowMonitoredApps,Monitored Apps,নজরদারিতে থাকা অ্যাপ
+rowLastDiagnostic,System Health,সিস্টেমের অবস্থা
+actionEnableProtection,Enable Monitoring,নজরদারি চালু করুন
+actionRunDiagnostics,Run Diagnostics,ডায়াগনস্টিক চালান
+actionManageApps,Manage Apps,অ্যাপ পরিচালনা
+actionSettings,Settings,সেটিংস
+actionFixPermissions,Fix Permissions,অনুমতি ঠিক করুন
+settingsTitle,Settings,সেটিংস
+sectionAppearance,Appearance,চেহারা
+themeBlack,Black,কালো
+themeWhite,White,সাদা
+themeGoldenBlack,Golden & Black,সোনালি ও কালো
+themeGoldenWhite,Golden & White,সোনালি ও সাদা
+reducedMotion,Reduced Motion,কম গতি
+reducedMotionDesc,Disable non-essential pulse and transitions,অপ্রয়োজনীয় অ্যানিমেশন বন্ধ করুন
+hapticFeedback,Haptic Feedback,হ্যাপটিক প্রতিক্রিয়া
+hapticFeedbackDesc,Vibrate on interactions and button taps,বোতাম চাপলে কম্পন
+sectionLanguage,Language,ভাষা
+currentLanguage,App Language,অ্যাপের ভাষা
+sectionMonitoring,Notification Monitoring,নোটিফিকেশন নজরদারি
+monitoringActive,Monitoring active,নজরদারি সক্রিয়
+monitoringActiveDesc,Active local listener for delivery status,স্থানীয় শ্রোতা ডেলিভারি অবস্থা দেখছে
+monitoringUnavailable,Monitoring unavailable,নজরদারি নেই
+historyPrivacy,History Privacy,ইতিহাসের গোপনীয়তা
+historyPrivacyMetadata,Metadata only (Recommended),শুধু মেটাডেটা (সুপারিশকৃত)
+historyPrivacyOptIn,Metadata + Titles,মেটাডেটা + শিরোনাম
+diagnosticAlerts,Alert Frequency,সতর্কতার হার
+alertsSilent,Silent Monitoring,নীরব নজরদারি
+alertsCriticalOnly,Critical Alerts Only,শুধু গুরুত্বপূর্ণ সতর্কতা
+alertsAll,All Diagnostic Alerts,সব ডায়াগনস্টিক সতর্কতা
+sectionAppManagement,Installed Apps,ইনস্টল করা অ্যাপ
+sectionAppManagementDesc,Configure individual app monitoring rules,প্রতিটি অ্যাপের নজরদারি নিয়ম সেট করুন
+sectionBattery,Battery & Background,ব্যাটারি ও পটভূমি
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,ব্যাটারি সীমা ও নির্মাতার নির্দেশনা দেখুন
+openBatterySettings,Open Battery Settings,ব্যাটারি সেটিংস খুলুন
+sectionDiagnostics,Diagnostics Engine,ডায়াগনস্টিক
+runDiagnosticsNow,Run Full Check,পূর্ণ পরীক্ষা চালান
+sectionPrivacyStorage,Privacy & Local Data,গোপনীয়তা ও স্থানীয় ডেটা
+eventRetention,Event History Retention,ইতিহাস রাখার সময়
+retention1Day,1 Day,১ দিন
+retention7Days,7 Days,৭ দিন
+retention30Days,30 Days,৩০ দিন
+clearHistory,Clear Event Log,ইভেন্ট লগ মুছুন
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,নোটিফিকেশন ইভেন্ট ইতিহাস মুছবেন?
+resetSettings,Reset Preferences,পছন্দ রিসেট
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,সব NEXGUARD পছন্দ ডিফল্টে ফেরাবেন?
+cancel,Cancel,বাতিল
+confirm,Confirm,নিশ্চিত
+save,Save,সংরক্ষণ
+changesSaved,Changes saved,পরিবর্তন সংরক্ষিত
+changesNotSaved,Changes could not be saved,পরিবর্তন সংরক্ষণ হয়নি
+appManagerTitle,Manage Apps,অ্যাপ পরিচালনা
+searchApps,Search apps...,অ্যাপ খুঁজুন...
+filterAll,All,সব
+filterUser,User,ব্যবহারকারী
+filterSystem,System,সিস্টেম
+monitoredStatus,Monitored,নজরদারিতে
+unmonitoredStatus,Excluded,বাদ
+openAppNotificationSettings,App Notification Settings,অ্যাপ নোটিফিকেশন সেটিংস
+openAppDetailsSettings,System App Info,সিস্টেম অ্যাপ তথ্য
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,ভালো নির্ভরযোগ্যতার জন্য পটভূমির ডেটা ও ব্যাটারি ব্যবহার সীমাহীন রাখুন।
+noAppsFound,No applications match your filter,ফিল্টারের সাথে কোনো অ্যাপ মেলেনি
+diagnosticReportTitle,Diagnostic Results,ডায়াগনস্টিক ফলাফল
+allChecksPassed,All systems functioning normally,সব পরীক্ষা স্বাভাবিক
+issuesDetected,Issues detected affecting reliability,নির্ভরযোগ্যতায় প্রভাব ফেলা সমস্যা পাওয়া গেছে
+manufacturerGuidance,Device Manufacturer Advice,ডিভাইস নির্মাতার পরামর্শ
+protectionDetailsTitle,Monitoring Status,নজরদারির অবস্থা
+close,Close,বন্ধ
+startProtection,Start Monitoring,নজরদারি শুরু
+protectInBackground,Start Monitoring,নজরদারি শুরু
+stopProtection,Stop Monitoring,নজরদারি থামান
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD সক্রিয় এবং পটভূমিতে নোটিফিকেশন নজরদারি করছে।
+aboutTitle,About,সম্পর্কে
+aboutVersion,Version,সংস্করণ
+aboutGitHub,Source code,সোর্স কোড
+aboutLicense,License,লাইসেন্স
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","ওপেন-সোর্স লাইব্রেরি: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines।"

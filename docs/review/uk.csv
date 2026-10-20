@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Монітор стану сповіщень
+selectLanguage,Choose Language,Вибір мови
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Оберіть мову. Її можна змінити пізніше.
+searchLanguage,Search languages...,Пошук мов...
+continueButton,Continue,Продовжити
+nextButton,Next,Далі
+backButton,Back,Назад
+setupTitle,Permission Setup,Налаштування дозволів
+setupSubtitle,Configure system access to keep notifications reliable,"Налаштуйте доступ системи, щоб сповіщення лишалися надійними"
+permissionNotificationListener,Notification Access (Required),Доступ до сповіщень (обов’язково)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,Дозволяє NEXGUARD локально відстежувати події сповіщень і виявляти обмеження доставки.
+permissionGuardianNotifications,NEXGUARD Alerts,Сповіщення NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,"Короткі діагностичні сповіщення, якщо доставку у фоні зупинено."
+permissionBatteryOptimization,Background Reliability,Надійність у фоні
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,"Виключіть NEXGUARD зі суворих обмежень батареї, щоб він лишався підключеним."
+permissionPrivacyNotice,Private & On-Device,Приватно і на пристрої
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Лише метадані. NEXGUARD не зберігає і не надсилає текст повідомлень.
+grantAccess,Grant,Дозволити
+granted,Active,Активно
+notGranted,Action Needed,Потрібна дія
+finishSetup,Complete Setup,Завершити налаштування
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Надайте обов’язкові дозволи перед продовженням.
+allPermissionsRequired,Notification Access is required to continue.,Для продовження потрібен доступ до сповіщень.
+requiredPermissions,Required Permissions,Обов’язкові дозволи
+permissionDenied,Permission Denied,Дозвіл відхилено
+missingNotificationAccess,Missing: Notification Access,Немає: доступу до сповіщень
+statusProtectionActive,Monitoring Active,Моніторинг активний
+statusProtectionActiveDesc,Monitoring notification delivery in background,Доставка сповіщень відстежується у фоні
+statusAccessRequired,Access Required,Потрібен доступ
+statusAccessRequiredDesc,Grant notification access to start monitoring,"Дозвольте доступ до сповіщень, щоб почати моніторинг"
+statusBatteryRestricted,Battery Restricted,Батарею обмежено
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,Оптимізація батареї може затримувати сповіщення
+statusMonitoringPaused,Monitoring Paused,Моніторинг на паузі
+statusMonitoringPausedDesc,Notification monitoring is paused by user,Користувач призупинив моніторинг сповіщень
+rowNotificationAccess,Notification Access,Доступ до сповіщень
+rowMonitoringState,Monitoring State,Стан моніторингу
+rowBatteryOptimization,Battery Policy,Політика батареї
+rowMonitoredApps,Monitored Apps,Відстежувані застосунки
+rowLastDiagnostic,System Health,Стан системи
+actionEnableProtection,Enable Monitoring,Увімкнути моніторинг
+actionRunDiagnostics,Run Diagnostics,Запустити діагностику
+actionManageApps,Manage Apps,Керувати застосунками
+actionSettings,Settings,Налаштування
+actionFixPermissions,Fix Permissions,Виправити дозволи
+settingsTitle,Settings,Налаштування
+sectionAppearance,Appearance,Вигляд
+themeBlack,Black,Чорна
+themeWhite,White,Біла
+themeGoldenBlack,Golden & Black,Золото і чорний
+themeGoldenWhite,Golden & White,Золото і білий
+reducedMotion,Reduced Motion,Менше анімації
+reducedMotionDesc,Disable non-essential pulse and transitions,Вимкнути зайві анімації та переходи
+hapticFeedback,Haptic Feedback,Тактильний відгук
+hapticFeedbackDesc,Vibrate on interactions and button taps,Вібрація під час натискання кнопок
+sectionLanguage,Language,Мова
+currentLanguage,App Language,Мова застосунку
+sectionMonitoring,Notification Monitoring,Моніторинг сповіщень
+monitoringActive,Monitoring active,Моніторинг активний
+monitoringActiveDesc,Active local listener for delivery status,Локальний слухач перевіряє стан доставки
+monitoringUnavailable,Monitoring unavailable,Моніторинг недоступний
+historyPrivacy,History Privacy,Конфіденційність історії
+historyPrivacyMetadata,Metadata only (Recommended),Лише метадані (рекомендовано)
+historyPrivacyOptIn,Metadata + Titles,Метадані + заголовки
+diagnosticAlerts,Alert Frequency,Частота сповіщень
+alertsSilent,Silent Monitoring,Тихий моніторинг
+alertsCriticalOnly,Critical Alerts Only,Лише важливі сповіщення
+alertsAll,All Diagnostic Alerts,Усі діагностичні сповіщення
+sectionAppManagement,Installed Apps,Встановлені застосунки
+sectionAppManagementDesc,Configure individual app monitoring rules,Налаштуйте правила моніторингу для кожного застосунку
+sectionBattery,Battery & Background,Батарея і фон
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Перевірте обмеження батареї та поради виробника
+openBatterySettings,Open Battery Settings,Відкрити налаштування батареї
+sectionDiagnostics,Diagnostics Engine,Діагностика
+runDiagnosticsNow,Run Full Check,Повна перевірка
+sectionPrivacyStorage,Privacy & Local Data,Конфіденційність і локальні дані
+eventRetention,Event History Retention,Термін зберігання історії
+retention1Day,1 Day,1 день
+retention7Days,7 Days,7 днів
+retention30Days,30 Days,30 днів
+clearHistory,Clear Event Log,Очистити журнал подій
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Очистити історію подій сповіщень?
+resetSettings,Reset Preferences,Скинути налаштування
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Повернути всі налаштування NEXGUARD до стандартних?
+cancel,Cancel,Скасувати
+confirm,Confirm,Підтвердити
+save,Save,Зберегти
+changesSaved,Changes saved,Зміни збережено
+changesNotSaved,Changes could not be saved,Не вдалося зберегти зміни
+appManagerTitle,Manage Apps,Керувати застосунками
+searchApps,Search apps...,Пошук застосунків...
+filterAll,All,Усі
+filterUser,User,Користувач
+filterSystem,System,Система
+monitoredStatus,Monitored,Відстежується
+unmonitoredStatus,Excluded,Виключено
+openAppNotificationSettings,App Notification Settings,Налаштування сповіщень застосунку
+openAppDetailsSettings,System App Info,Відомості про системний застосунок
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,Для надійності дозвольте необмежені фонові дані та використання батареї.
+noAppsFound,No applications match your filter,Немає застосунків за цим фільтром
+diagnosticReportTitle,Diagnostic Results,Результати діагностики
+allChecksPassed,All systems functioning normally,Усі перевірки в нормі
+issuesDetected,Issues detected affecting reliability,"Знайдено проблеми, що впливають на надійність"
+manufacturerGuidance,Device Manufacturer Advice,Порада виробника пристрою
+protectionDetailsTitle,Monitoring Status,Стан моніторингу
+close,Close,Закрити
+startProtection,Start Monitoring,Почати моніторинг
+protectInBackground,Start Monitoring,Почати моніторинг
+stopProtection,Stop Monitoring,Зупинити моніторинг
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD активний і відстежує сповіщення у фоні.
+aboutTitle,About,Про застосунок
+aboutVersion,Version,Версія
+aboutGitHub,Source code,Вихідний код
+aboutLicense,License,Ліцензія
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Бібліотеки з відкритим кодом: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."
