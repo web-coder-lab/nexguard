@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,通知健康監測
+selectLanguage,Choose Language,選擇語言
+selectLanguageDesc,Select your preferred language. You can change this anytime.,選擇偏好語言。之後可隨時變更。
+searchLanguage,Search languages...,搜尋語言...
+continueButton,Continue,繼續
+nextButton,Next,下一步
+backButton,Back,返回
+setupTitle,Permission Setup,權限設定
+setupSubtitle,Configure system access to keep notifications reliable,設定系統權限，讓通知更可靠
+permissionNotificationListener,Notification Access (Required),通知存取權（必要）
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,允許 NEXGUARD 在本機監測應用程式通知事件，以發現傳送限制。
+permissionGuardianNotifications,NEXGUARD Alerts,NEXGUARD 提醒
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,背景傳送受阻時收到簡短診斷通知。
+permissionBatteryOptimization,Background Reliability,背景可靠性
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,將 NEXGUARD 排除在嚴格電池限制之外，以便維持連線。
+permissionPrivacyNotice,Private & On-Device,本機且私密
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,僅中繼資料。NEXGUARD 不儲存也不傳送訊息內容。
+grantAccess,Grant,允許
+granted,Active,已啟用
+notGranted,Action Needed,需要操作
+finishSetup,Complete Setup,完成設定
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,繼續前請授予必要權限。
+allPermissionsRequired,Notification Access is required to continue.,繼續需要通知存取權。
+requiredPermissions,Required Permissions,必要權限
+permissionDenied,Permission Denied,權限遭拒
+missingNotificationAccess,Missing: Notification Access,缺少：通知存取權
+statusProtectionActive,Monitoring Active,監測中
+statusProtectionActiveDesc,Monitoring notification delivery in background,正在背景監測通知傳送
+statusAccessRequired,Access Required,需要權限
+statusAccessRequiredDesc,Grant notification access to start monitoring,授予通知存取權以開始監測
+statusBatteryRestricted,Battery Restricted,電池受限
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,電池最佳化可能會延遲通知
+statusMonitoringPaused,Monitoring Paused,監測已暫停
+statusMonitoringPausedDesc,Notification monitoring is paused by user,使用者已暫停通知監測
+rowNotificationAccess,Notification Access,通知存取權
+rowMonitoringState,Monitoring State,監測狀態
+rowBatteryOptimization,Battery Policy,電池原則
+rowMonitoredApps,Monitored Apps,監測中的應用程式
+rowLastDiagnostic,System Health,系統健康狀態
+actionEnableProtection,Enable Monitoring,開啟監測
+actionRunDiagnostics,Run Diagnostics,執行診斷
+actionManageApps,Manage Apps,管理應用程式
+actionSettings,Settings,設定
+actionFixPermissions,Fix Permissions,修正權限
+settingsTitle,Settings,設定
+sectionAppearance,Appearance,外觀
+themeBlack,Black,黑色
+themeWhite,White,白色
+themeGoldenBlack,Golden & Black,金色與黑色
+themeGoldenWhite,Golden & White,金色與白色
+reducedMotion,Reduced Motion,減少動畫
+reducedMotionDesc,Disable non-essential pulse and transitions,關閉非必要動畫與轉場
+hapticFeedback,Haptic Feedback,觸覺回饋
+hapticFeedbackDesc,Vibrate on interactions and button taps,點按按鈕時震動
+sectionLanguage,Language,語言
+currentLanguage,App Language,應用程式語言
+sectionMonitoring,Notification Monitoring,通知監測
+monitoringActive,Monitoring active,監測中
+monitoringActiveDesc,Active local listener for delivery status,本機監聽器正在檢查傳送狀態
+monitoringUnavailable,Monitoring unavailable,無法監測
+historyPrivacy,History Privacy,歷程隱私
+historyPrivacyMetadata,Metadata only (Recommended),僅中繼資料（建議）
+historyPrivacyOptIn,Metadata + Titles,中繼資料 + 標題
+diagnosticAlerts,Alert Frequency,提醒頻率
+alertsSilent,Silent Monitoring,靜音監測
+alertsCriticalOnly,Critical Alerts Only,僅重要提醒
+alertsAll,All Diagnostic Alerts,全部診斷提醒
+sectionAppManagement,Installed Apps,已安裝應用程式
+sectionAppManagementDesc,Configure individual app monitoring rules,設定各應用程式的監測規則
+sectionBattery,Battery & Background,電池與背景
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,查看裝置電池限制與廠商指引
+openBatterySettings,Open Battery Settings,開啟電池設定
+sectionDiagnostics,Diagnostics Engine,診斷
+runDiagnosticsNow,Run Full Check,執行完整檢查
+sectionPrivacyStorage,Privacy & Local Data,隱私與本機資料
+eventRetention,Event History Retention,事件歷程保留
+retention1Day,1 Day,1 天
+retention7Days,7 Days,7 天
+retention30Days,30 Days,30 天
+clearHistory,Clear Event Log,清除事件記錄
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,確定要清除通知事件歷程嗎？
+resetSettings,Reset Preferences,重設偏好
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,將所有 NEXGUARD 偏好恢復為預設值？
+cancel,Cancel,取消
+confirm,Confirm,確認
+save,Save,儲存
+changesSaved,Changes saved,變更已儲存
+changesNotSaved,Changes could not be saved,無法儲存變更
+appManagerTitle,Manage Apps,管理應用程式
+searchApps,Search apps...,搜尋應用程式...
+filterAll,All,全部
+filterUser,User,使用者
+filterSystem,System,系統
+monitoredStatus,Monitored,監測中
+unmonitoredStatus,Excluded,已排除
+openAppNotificationSettings,App Notification Settings,應用程式通知設定
+openAppDetailsSettings,System App Info,系統應用程式資訊
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,為提高可靠性，請允許不受限制的背景資料與電池使用。
+noAppsFound,No applications match your filter,沒有符合篩選條件的應用程式
+diagnosticReportTitle,Diagnostic Results,診斷結果
+allChecksPassed,All systems functioning normally,各項檢查正常
+issuesDetected,Issues detected affecting reliability,發現影響可靠性的問題
+manufacturerGuidance,Device Manufacturer Advice,裝置廠商建議
+protectionDetailsTitle,Monitoring Status,監測狀態
+close,Close,關閉
+startProtection,Start Monitoring,開始監測
+protectInBackground,Start Monitoring,開始監測
+stopProtection,Stop Monitoring,停止監測
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD 已啟用，正在背景監測通知。
+aboutTitle,About,關於
+aboutVersion,Version,版本
+aboutGitHub,Source code,原始碼
+aboutLicense,License,授權
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.",開源程式庫：AndroidX、Jetpack Compose、Room、DataStore、WorkManager、Kotlin Coroutines。

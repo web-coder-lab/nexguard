@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,مراقبة صحة الإشعارات
+selectLanguage,Choose Language,اختيار اللغة
+selectLanguageDesc,Select your preferred language. You can change this anytime.,اختر لغتك المفضلة. يمكنك تغييرها لاحقًا.
+searchLanguage,Search languages...,البحث في اللغات...
+continueButton,Continue,متابعة
+nextButton,Next,التالي
+backButton,Back,رجوع
+setupTitle,Permission Setup,إعداد الأذونات
+setupSubtitle,Configure system access to keep notifications reliable,اضبط وصول النظام لإبقاء الإشعارات موثوقة
+permissionNotificationListener,Notification Access (Required),الوصول إلى الإشعارات (مطلوب)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,يسمح لـ NEXGUARD بمراقبة أحداث الإشعارات محليًا لاكتشاف قيود التسليم.
+permissionGuardianNotifications,NEXGUARD Alerts,تنبيهات NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,استلم ملاحظات تشخيصية مختصرة إذا توقف التسليم في الخلفية.
+permissionBatteryOptimization,Background Reliability,موثوقية الخلفية
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,استثنِ NEXGUARD من قيود البطارية القوية ليبقى متصلًا.
+permissionPrivacyNotice,Private & On-Device,خاص وعلى الجهاز
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,بيانات وصفية فقط. لا يحفظ NEXGUARD نص الرسالة ولا يرسله.
+grantAccess,Grant,منح
+granted,Active,نشط
+notGranted,Action Needed,يلزم إجراء
+finishSetup,Complete Setup,إكمال الإعداد
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,امنح الأذونات المطلوبة قبل المتابعة.
+allPermissionsRequired,Notification Access is required to continue.,الوصول إلى الإشعارات مطلوب للمتابعة.
+requiredPermissions,Required Permissions,الأذونات المطلوبة
+permissionDenied,Permission Denied,تم رفض الإذن
+missingNotificationAccess,Missing: Notification Access,ناقص: الوصول إلى الإشعارات
+statusProtectionActive,Monitoring Active,المراقبة نشطة
+statusProtectionActiveDesc,Monitoring notification delivery in background,تجري مراقبة تسليم الإشعارات في الخلفية
+statusAccessRequired,Access Required,يلزم الوصول
+statusAccessRequiredDesc,Grant notification access to start monitoring,امنح الوصول إلى الإشعارات لبدء المراقبة
+statusBatteryRestricted,Battery Restricted,البطارية مقيّدة
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,قد يؤخر تحسين البطارية الإشعارات
+statusMonitoringPaused,Monitoring Paused,المراقبة متوقفة
+statusMonitoringPausedDesc,Notification monitoring is paused by user,أوقف المستخدم مراقبة الإشعارات
+rowNotificationAccess,Notification Access,الوصول إلى الإشعارات
+rowMonitoringState,Monitoring State,حالة المراقبة
+rowBatteryOptimization,Battery Policy,سياسة البطارية
+rowMonitoredApps,Monitored Apps,التطبيقات المراقبة
+rowLastDiagnostic,System Health,صحة النظام
+actionEnableProtection,Enable Monitoring,تفعيل المراقبة
+actionRunDiagnostics,Run Diagnostics,تشغيل التشخيص
+actionManageApps,Manage Apps,إدارة التطبيقات
+actionSettings,Settings,الإعدادات
+actionFixPermissions,Fix Permissions,إصلاح الأذونات
+settingsTitle,Settings,الإعدادات
+sectionAppearance,Appearance,المظهر
+themeBlack,Black,أسود
+themeWhite,White,أبيض
+themeGoldenBlack,Golden & Black,ذهبي وأسود
+themeGoldenWhite,Golden & White,ذهبي وأبيض
+reducedMotion,Reduced Motion,حركة أقل
+reducedMotionDesc,Disable non-essential pulse and transitions,إيقاف الحركة والانتقالات غير الضرورية
+hapticFeedback,Haptic Feedback,استجابة لمسية
+hapticFeedbackDesc,Vibrate on interactions and button taps,اهتزاز عند الضغط على الأزرار
+sectionLanguage,Language,اللغة
+currentLanguage,App Language,لغة التطبيق
+sectionMonitoring,Notification Monitoring,مراقبة الإشعارات
+monitoringActive,Monitoring active,المراقبة نشطة
+monitoringActiveDesc,Active local listener for delivery status,المستمع المحلي لحالة التسليم نشط
+monitoringUnavailable,Monitoring unavailable,المراقبة غير متاحة
+historyPrivacy,History Privacy,خصوصية السجل
+historyPrivacyMetadata,Metadata only (Recommended),بيانات وصفية فقط (موصى به)
+historyPrivacyOptIn,Metadata + Titles,بيانات وصفية + العناوين
+diagnosticAlerts,Alert Frequency,تكرار التنبيه
+alertsSilent,Silent Monitoring,مراقبة صامتة
+alertsCriticalOnly,Critical Alerts Only,التنبيهات المهمة فقط
+alertsAll,All Diagnostic Alerts,كل التنبيهات التشخيصية
+sectionAppManagement,Installed Apps,التطبيقات المثبّتة
+sectionAppManagementDesc,Configure individual app monitoring rules,اضبط قواعد المراقبة لكل تطبيق
+sectionBattery,Battery & Background,البطارية والخلفية
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,راجع قيود البطارية وإرشادات الشركة المصنّعة
+openBatterySettings,Open Battery Settings,فتح إعدادات البطارية
+sectionDiagnostics,Diagnostics Engine,التشخيص
+runDiagnosticsNow,Run Full Check,تشغيل فحص كامل
+sectionPrivacyStorage,Privacy & Local Data,الخصوصية والبيانات المحلية
+eventRetention,Event History Retention,مدة الاحتفاظ بالسجل
+retention1Day,1 Day,يوم واحد
+retention7Days,7 Days,7 أيام
+retention30Days,30 Days,30 يومًا
+clearHistory,Clear Event Log,مسح سجل الأحداث
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,هل تريد مسح سجل أحداث الإشعارات؟
+resetSettings,Reset Preferences,إعادة ضبط التفضيلات
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,إعادة كل تفضيلات NEXGUARD إلى القيم الافتراضية؟
+cancel,Cancel,إلغاء
+confirm,Confirm,تأكيد
+save,Save,حفظ
+changesSaved,Changes saved,تم حفظ التغييرات
+changesNotSaved,Changes could not be saved,تعذر حفظ التغييرات
+appManagerTitle,Manage Apps,إدارة التطبيقات
+searchApps,Search apps...,البحث في التطبيقات...
+filterAll,All,الكل
+filterUser,User,المستخدم
+filterSystem,System,النظام
+monitoredStatus,Monitored,تحت المراقبة
+unmonitoredStatus,Excluded,مستبعد
+openAppNotificationSettings,App Notification Settings,إعدادات إشعارات التطبيق
+openAppDetailsSettings,System App Info,معلومات تطبيق النظام
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,اترك بيانات الخلفية واستخدام البطارية دون قيود لموثوقية أفضل.
+noAppsFound,No applications match your filter,لا توجد تطبيقات مطابقة
+diagnosticReportTitle,Diagnostic Results,نتائج التشخيص
+allChecksPassed,All systems functioning normally,كل الأنظمة تعمل بشكل طبيعي
+issuesDetected,Issues detected affecting reliability,تم اكتشاف مشكلات تؤثر على الموثوقية
+manufacturerGuidance,Device Manufacturer Advice,إرشاد الشركة المصنّعة
+protectionDetailsTitle,Monitoring Status,حالة المراقبة
+close,Close,إغلاق
+startProtection,Start Monitoring,بدء المراقبة
+protectInBackground,Start Monitoring,بدء المراقبة
+stopProtection,Stop Monitoring,إيقاف المراقبة
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD نشط الآن ويراقب الإشعارات في الخلفية.
+aboutTitle,About,حول
+aboutVersion,Version,الإصدار
+aboutGitHub,Source code,الشفرة المصدرية
+aboutLicense,License,الترخيص
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.",مكتبات مفتوحة المصدر: AndroidX وJetpack Compose وRoom وDataStore وWorkManager وKotlin Coroutines.
