@@ -21,7 +21,7 @@ These features are implemented in the current source:
 - Schedules diagnostic work again after reboot with WorkManager.
 - Lets you exclude apps from monitoring.
 - Includes language selection, theme settings, and an onboarding permission flow.
-- Ships interface strings for English, Simplified Chinese, Traditional Chinese, Russian, Portuguese (Brazil), Urdu, Arabic, Hindi, Spanish, French, German, Turkish, Indonesian, Japanese, and Korean.
+- Ships 25 language options. All text is translated, but the translations are machine-generated and not yet reviewed by native speakers.
 
 ## Tested on
 
