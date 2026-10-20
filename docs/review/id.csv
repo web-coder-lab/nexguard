@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Pemantau kesehatan notifikasi
+selectLanguage,Choose Language,Pilih bahasa
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Pilih bahasa. Anda dapat mengubahnya nanti.
+searchLanguage,Search languages...,Cari bahasa...
+continueButton,Continue,Lanjutkan
+nextButton,Next,Berikutnya
+backButton,Back,Kembali
+setupTitle,Permission Setup,Penyiapan izin
+setupSubtitle,Configure system access to keep notifications reliable,Atur akses sistem agar notifikasi tetap andal
+permissionNotificationListener,Notification Access (Required),Akses notifikasi (wajib)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,Memungkinkan NEXGUARD memantau peristiwa notifikasi di perangkat untuk mendeteksi pembatasan pengiriman.
+permissionGuardianNotifications,NEXGUARD Alerts,Peringatan NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,Terima catatan diagnostik singkat jika pengiriman latar belakang terblokir.
+permissionBatteryOptimization,Background Reliability,Keandalan latar belakang
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,Kecualikan NEXGUARD dari pembatasan baterai ketat agar tetap terhubung.
+permissionPrivacyNotice,Private & On-Device,Pribadi dan di perangkat
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Hanya metadata. NEXGUARD tidak menyimpan atau mengirim teks pesan.
+grantAccess,Grant,Izinkan
+granted,Active,Aktif
+notGranted,Action Needed,Perlu tindakan
+finishSetup,Complete Setup,Selesaikan penyiapan
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Berikan izin wajib sebelum melanjutkan.
+allPermissionsRequired,Notification Access is required to continue.,Akses notifikasi diperlukan untuk melanjutkan.
+requiredPermissions,Required Permissions,Izin wajib
+permissionDenied,Permission Denied,Izin ditolak
+missingNotificationAccess,Missing: Notification Access,Tidak ada: akses notifikasi
+statusProtectionActive,Monitoring Active,Pemantauan aktif
+statusProtectionActiveDesc,Monitoring notification delivery in background,Memantau pengiriman notifikasi di latar belakang
+statusAccessRequired,Access Required,Akses diperlukan
+statusAccessRequiredDesc,Grant notification access to start monitoring,Berikan akses notifikasi untuk memulai pemantauan
+statusBatteryRestricted,Battery Restricted,Baterai dibatasi
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,Pengoptimalan baterai dapat menunda notifikasi
+statusMonitoringPaused,Monitoring Paused,Pemantauan dijeda
+statusMonitoringPausedDesc,Notification monitoring is paused by user,Pengguna menjeda pemantauan notifikasi
+rowNotificationAccess,Notification Access,Akses notifikasi
+rowMonitoringState,Monitoring State,Status pemantauan
+rowBatteryOptimization,Battery Policy,Kebijakan baterai
+rowMonitoredApps,Monitored Apps,Aplikasi yang dipantau
+rowLastDiagnostic,System Health,Kesehatan sistem
+actionEnableProtection,Enable Monitoring,Aktifkan pemantauan
+actionRunDiagnostics,Run Diagnostics,Jalankan diagnostik
+actionManageApps,Manage Apps,Kelola aplikasi
+actionSettings,Settings,Setelan
+actionFixPermissions,Fix Permissions,Perbaiki izin
+settingsTitle,Settings,Setelan
+sectionAppearance,Appearance,Tampilan
+themeBlack,Black,Hitam
+themeWhite,White,Putih
+themeGoldenBlack,Golden & Black,Emas dan hitam
+themeGoldenWhite,Golden & White,Emas dan putih
+reducedMotion,Reduced Motion,Kurangi gerakan
+reducedMotionDesc,Disable non-essential pulse and transitions,Matikan animasi dan transisi yang tidak penting
+hapticFeedback,Haptic Feedback,Umpan balik haptik
+hapticFeedbackDesc,Vibrate on interactions and button taps,Getar saat menekan tombol
+sectionLanguage,Language,Bahasa
+currentLanguage,App Language,Bahasa aplikasi
+sectionMonitoring,Notification Monitoring,Pemantauan notifikasi
+monitoringActive,Monitoring active,Pemantauan aktif
+monitoringActiveDesc,Active local listener for delivery status,Pendengar lokal memeriksa status pengiriman
+monitoringUnavailable,Monitoring unavailable,Pemantauan tidak tersedia
+historyPrivacy,History Privacy,Privasi riwayat
+historyPrivacyMetadata,Metadata only (Recommended),Hanya metadata (disarankan)
+historyPrivacyOptIn,Metadata + Titles,Metadata + judul
+diagnosticAlerts,Alert Frequency,Frekuensi peringatan
+alertsSilent,Silent Monitoring,Pemantauan senyap
+alertsCriticalOnly,Critical Alerts Only,Hanya peringatan penting
+alertsAll,All Diagnostic Alerts,Semua peringatan diagnostik
+sectionAppManagement,Installed Apps,Aplikasi terpasang
+sectionAppManagementDesc,Configure individual app monitoring rules,Atur aturan pemantauan tiap aplikasi
+sectionBattery,Battery & Background,Baterai dan latar belakang
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Tinjau pembatasan baterai dan panduan produsen
+openBatterySettings,Open Battery Settings,Buka setelan baterai
+sectionDiagnostics,Diagnostics Engine,Diagnostik
+runDiagnosticsNow,Run Full Check,Jalankan pemeriksaan penuh
+sectionPrivacyStorage,Privacy & Local Data,Privasi dan data lokal
+eventRetention,Event History Retention,Masa simpan riwayat
+retention1Day,1 Day,1 hari
+retention7Days,7 Days,7 hari
+retention30Days,30 Days,30 hari
+clearHistory,Clear Event Log,Hapus log peristiwa
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Hapus riwayat peristiwa notifikasi?
+resetSettings,Reset Preferences,Setel ulang preferensi
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Kembalikan semua preferensi NEXGUARD ke default?
+cancel,Cancel,Batal
+confirm,Confirm,Konfirmasi
+save,Save,Simpan
+changesSaved,Changes saved,Perubahan disimpan
+changesNotSaved,Changes could not be saved,Perubahan tidak dapat disimpan
+appManagerTitle,Manage Apps,Kelola aplikasi
+searchApps,Search apps...,Cari aplikasi...
+filterAll,All,Semua
+filterUser,User,Pengguna
+filterSystem,System,Sistem
+monitoredStatus,Monitored,Dipantau
+unmonitoredStatus,Excluded,Dikecualikan
+openAppNotificationSettings,App Notification Settings,Setelan notifikasi aplikasi
+openAppDetailsSettings,System App Info,Info aplikasi sistem
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,"Untuk keandalan lebih baik, izinkan data latar belakang dan penggunaan baterai tanpa batasan."
+noAppsFound,No applications match your filter,Tidak ada aplikasi yang cocok
+diagnosticReportTitle,Diagnostic Results,Hasil diagnostik
+allChecksPassed,All systems functioning normally,Semua pemeriksaan normal
+issuesDetected,Issues detected affecting reliability,Ditemukan masalah yang memengaruhi keandalan
+manufacturerGuidance,Device Manufacturer Advice,Panduan produsen perangkat
+protectionDetailsTitle,Monitoring Status,Status pemantauan
+close,Close,Tutup
+startProtection,Start Monitoring,Mulai pemantauan
+protectInBackground,Start Monitoring,Mulai pemantauan
+stopProtection,Stop Monitoring,Hentikan pemantauan
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD aktif dan memantau notifikasi di latar belakang.
+aboutTitle,About,Tentang
+aboutVersion,Version,Versi
+aboutGitHub,Source code,Kode sumber
+aboutLicense,License,Lisensi
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Pustaka sumber terbuka: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."

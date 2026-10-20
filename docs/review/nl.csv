@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Monitor voor meldingsstatus
+selectLanguage,Choose Language,Taal kiezen
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Kies uw taal. U kunt deze later wijzigen.
+searchLanguage,Search languages...,Talen zoeken...
+continueButton,Continue,Doorgaan
+nextButton,Next,Volgende
+backButton,Back,Terug
+setupTitle,Permission Setup,Machtigingen instellen
+setupSubtitle,Configure system access to keep notifications reliable,Stel systeemtoegang in zodat meldingen betrouwbaar blijven
+permissionNotificationListener,Notification Access (Required),Toegang tot meldingen (vereist)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,Laat NEXGUARD meldingsgebeurtenissen lokaal volgen om bezorgbeperkingen te zien.
+permissionGuardianNotifications,NEXGUARD Alerts,NEXGUARD-meldingen
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,Korte diagnosemeldingen als bezorging op de achtergrond stopt.
+permissionBatteryOptimization,Background Reliability,Betrouwbaarheid op de achtergrond
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,Sluit NEXGUARD uit van strenge accubeperkingen zodat het verbonden blijft.
+permissionPrivacyNotice,Private & On-Device,Privé en op het apparaat
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Alleen metadata. NEXGUARD bewaart of verstuurt geen berichttekst.
+grantAccess,Grant,Toestaan
+granted,Active,Actief
+notGranted,Action Needed,Actie nodig
+finishSetup,Complete Setup,Instellen afronden
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Geef de vereiste machtigingen voordat u doorgaat.
+allPermissionsRequired,Notification Access is required to continue.,Toegang tot meldingen is nodig om door te gaan.
+requiredPermissions,Required Permissions,Vereiste machtigingen
+permissionDenied,Permission Denied,Machtiging geweigerd
+missingNotificationAccess,Missing: Notification Access,Ontbreekt: toegang tot meldingen
+statusProtectionActive,Monitoring Active,Bewaking actief
+statusProtectionActiveDesc,Monitoring notification delivery in background,Meldingsbezorging wordt op de achtergrond gevolgd
+statusAccessRequired,Access Required,Toegang vereist
+statusAccessRequiredDesc,Grant notification access to start monitoring,Geef toegang tot meldingen om de bewaking te starten
+statusBatteryRestricted,Battery Restricted,Accu beperkt
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,Accu-optimalisatie kan meldingen vertragen
+statusMonitoringPaused,Monitoring Paused,Bewaking gepauzeerd
+statusMonitoringPausedDesc,Notification monitoring is paused by user,De gebruiker heeft de meldingsbewaking gepauzeerd
+rowNotificationAccess,Notification Access,Toegang tot meldingen
+rowMonitoringState,Monitoring State,Bewakingsstatus
+rowBatteryOptimization,Battery Policy,Accubeleid
+rowMonitoredApps,Monitored Apps,Bewaakte apps
+rowLastDiagnostic,System Health,Systeemstatus
+actionEnableProtection,Enable Monitoring,Bewaking inschakelen
+actionRunDiagnostics,Run Diagnostics,Diagnose uitvoeren
+actionManageApps,Manage Apps,Apps beheren
+actionSettings,Settings,Instellingen
+actionFixPermissions,Fix Permissions,Machtigingen corrigeren
+settingsTitle,Settings,Instellingen
+sectionAppearance,Appearance,Weergave
+themeBlack,Black,Zwart
+themeWhite,White,Wit
+themeGoldenBlack,Golden & Black,Goud en zwart
+themeGoldenWhite,Golden & White,Goud en wit
+reducedMotion,Reduced Motion,Minder beweging
+reducedMotionDesc,Disable non-essential pulse and transitions,Onnodige animaties en overgangen uit
+hapticFeedback,Haptic Feedback,Haptische feedback
+hapticFeedbackDesc,Vibrate on interactions and button taps,Trillen bij het indrukken van knoppen
+sectionLanguage,Language,Taal
+currentLanguage,App Language,App-taal
+sectionMonitoring,Notification Monitoring,Meldingsbewaking
+monitoringActive,Monitoring active,Bewaking actief
+monitoringActiveDesc,Active local listener for delivery status,Lokale listener controleert de bezorgstatus
+monitoringUnavailable,Monitoring unavailable,Bewaking niet beschikbaar
+historyPrivacy,History Privacy,Privacy van geschiedenis
+historyPrivacyMetadata,Metadata only (Recommended),Alleen metadata (aanbevolen)
+historyPrivacyOptIn,Metadata + Titles,Metadata + titels
+diagnosticAlerts,Alert Frequency,Meldingsfrequentie
+alertsSilent,Silent Monitoring,Stille bewaking
+alertsCriticalOnly,Critical Alerts Only,Alleen belangrijke meldingen
+alertsAll,All Diagnostic Alerts,Alle diagnosemeldingen
+sectionAppManagement,Installed Apps,Geïnstalleerde apps
+sectionAppManagementDesc,Configure individual app monitoring rules,Stel bewakingsregels per app in
+sectionBattery,Battery & Background,Accu en achtergrond
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Bekijk accubeperkingen en de gids van de maker
+openBatterySettings,Open Battery Settings,Accu-instellingen openen
+sectionDiagnostics,Diagnostics Engine,Diagnose
+runDiagnosticsNow,Run Full Check,Volledige controle uitvoeren
+sectionPrivacyStorage,Privacy & Local Data,Privacy en lokale gegevens
+eventRetention,Event History Retention,Bewaartermijn geschiedenis
+retention1Day,1 Day,1 dag
+retention7Days,7 Days,7 dagen
+retention30Days,30 Days,30 dagen
+clearHistory,Clear Event Log,Gebeurtenislog wissen
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Geschiedenis van meldingsgebeurtenissen wissen?
+resetSettings,Reset Preferences,Voorkeuren resetten
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Alle NEXGUARD-voorkeuren terugzetten naar standaard?
+cancel,Cancel,Annuleren
+confirm,Confirm,Bevestigen
+save,Save,Opslaan
+changesSaved,Changes saved,Wijzigingen opgeslagen
+changesNotSaved,Changes could not be saved,Wijzigingen konden niet worden opgeslagen
+appManagerTitle,Manage Apps,Apps beheren
+searchApps,Search apps...,Apps zoeken...
+filterAll,All,Alle
+filterUser,User,Gebruiker
+filterSystem,System,Systeem
+monitoredStatus,Monitored,Bewaakt
+unmonitoredStatus,Excluded,Uitgesloten
+openAppNotificationSettings,App Notification Settings,Meldingsinstellingen van app
+openAppDetailsSettings,System App Info,Info systeemapp
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,Sta voor meer betrouwbaarheid onbeperkte achtergrondgegevens en accugebruik toe.
+noAppsFound,No applications match your filter,Geen app komt overeen met het filter
+diagnosticReportTitle,Diagnostic Results,Diagnoseresultaten
+allChecksPassed,All systems functioning normally,Alle controles zijn normaal
+issuesDetected,Issues detected affecting reliability,Problemen gevonden die de betrouwbaarheid beïnvloeden
+manufacturerGuidance,Device Manufacturer Advice,Advies van de apparaatmaker
+protectionDetailsTitle,Monitoring Status,Bewakingsstatus
+close,Close,Sluiten
+startProtection,Start Monitoring,Bewaking starten
+protectInBackground,Start Monitoring,Bewaking starten
+stopProtection,Stop Monitoring,Bewaking stoppen
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD is actief en volgt meldingen op de achtergrond.
+aboutTitle,About,Over
+aboutVersion,Version,Versie
+aboutGitHub,Source code,Broncode
+aboutLicense,License,Licentie
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Open-sourcebibliotheken: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."

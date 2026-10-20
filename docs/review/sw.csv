@@ -1,0 +1,116 @@
+key,English,translation
+appName,NEXGUARD,NEXGUARD
+appSubtitle,Notification Health Monitor,Kifuatiliaji cha afya ya arifa
+selectLanguage,Choose Language,Chagua lugha
+selectLanguageDesc,Select your preferred language. You can change this anytime.,Chagua lugha. Unaweza kuibadilisha baadaye.
+searchLanguage,Search languages...,Tafuta lugha...
+continueButton,Continue,Endelea
+nextButton,Next,Ifuatayo
+backButton,Back,Rudi
+setupTitle,Permission Setup,Usanidi wa ruhusa
+setupSubtitle,Configure system access to keep notifications reliable,Weka ufikiaji wa mfumo ili arifa zibaki za kuaminika
+permissionNotificationListener,Notification Access (Required),Ufikiaji wa arifa (lazima)
+permissionNotificationListenerDesc,Allows NEXGUARD to monitor notification events locally from your apps to detect delivery restrictions.,Huruhusu NEXGUARD kufuatilia matukio ya arifa kwenye kifaa ili kugundua vizuizi vya utoaji.
+permissionGuardianNotifications,NEXGUARD Alerts,Arifa za NEXGUARD
+permissionGuardianNotificationsDesc,Receive concise diagnostic notices if background delivery is blocked.,Pokea maelezo mafupi ya uchunguzi ikiwa utoaji wa chinichini umezuiwa.
+permissionBatteryOptimization,Background Reliability,Uaminifu wa chinichini
+permissionBatteryOptimizationDesc,Exempt NEXGUARD from aggressive OS battery kill rules so it stays connected.,Ondoa NEXGUARD kwenye vizuizi vikali vya betri ili ibaki imeunganishwa.
+permissionPrivacyNotice,Private & On-Device,Faragha na kwenye kifaa
+permissionPrivacyNoticeDesc,Metadata only. NEXGUARD never logs or transmits notification message contents.,Metadata pekee. NEXGUARD haihifadhi wala haitumi maandishi ya ujumbe.
+grantAccess,Grant,Ruhusu
+granted,Active,Inatumika
+notGranted,Action Needed,Hatua inahitajika
+finishSetup,Complete Setup,Maliza usanidi
+pleaseGrantRequiredPermissions,Please grant the required permissions before continuing.,Toa ruhusa zinazohitajika kabla ya kuendelea.
+allPermissionsRequired,Notification Access is required to continue.,Ufikiaji wa arifa unahitajika ili kuendelea.
+requiredPermissions,Required Permissions,Ruhusa zinazohitajika
+permissionDenied,Permission Denied,Ruhusa imekataliwa
+missingNotificationAccess,Missing: Notification Access,Haipo: ufikiaji wa arifa
+statusProtectionActive,Monitoring Active,Ufuatiliaji unaendelea
+statusProtectionActiveDesc,Monitoring notification delivery in background,Utoaji wa arifa unafuatiliwa chinichini
+statusAccessRequired,Access Required,Ufikiaji unahitajika
+statusAccessRequiredDesc,Grant notification access to start monitoring,Toa ufikiaji wa arifa ili kuanza ufuatiliaji
+statusBatteryRestricted,Battery Restricted,Betri imezuiwa
+statusBatteryRestrictedDesc,OS battery optimization may delay notifications,Uboreshaji wa betri unaweza kuchelewesha arifa
+statusMonitoringPaused,Monitoring Paused,Ufuatiliaji umesitishwa
+statusMonitoringPausedDesc,Notification monitoring is paused by user,Mtumiaji amesitisha ufuatiliaji wa arifa
+rowNotificationAccess,Notification Access,Ufikiaji wa arifa
+rowMonitoringState,Monitoring State,Hali ya ufuatiliaji
+rowBatteryOptimization,Battery Policy,Sera ya betri
+rowMonitoredApps,Monitored Apps,Programu zinazofuatiliwa
+rowLastDiagnostic,System Health,Afya ya mfumo
+actionEnableProtection,Enable Monitoring,Washa ufuatiliaji
+actionRunDiagnostics,Run Diagnostics,Endesha uchunguzi
+actionManageApps,Manage Apps,Simamia programu
+actionSettings,Settings,Mipangilio
+actionFixPermissions,Fix Permissions,Rekebisha ruhusa
+settingsTitle,Settings,Mipangilio
+sectionAppearance,Appearance,Muonekano
+themeBlack,Black,Nyeusi
+themeWhite,White,Nyeupe
+themeGoldenBlack,Golden & Black,Dhahabu na nyeusi
+themeGoldenWhite,Golden & White,Dhahabu na nyeupe
+reducedMotion,Reduced Motion,Mwendo mdogo
+reducedMotionDesc,Disable non-essential pulse and transitions,Zima uhuishaji usio wa lazima
+hapticFeedback,Haptic Feedback,Majibu ya mguso
+hapticFeedbackDesc,Vibrate on interactions and button taps,Tetema unapobonyeza vitufe
+sectionLanguage,Language,Lugha
+currentLanguage,App Language,Lugha ya programu
+sectionMonitoring,Notification Monitoring,Ufuatiliaji wa arifa
+monitoringActive,Monitoring active,Ufuatiliaji unaendelea
+monitoringActiveDesc,Active local listener for delivery status,Msikilizaji wa ndani anaangalia hali ya utoaji
+monitoringUnavailable,Monitoring unavailable,Ufuatiliaji haupatikani
+historyPrivacy,History Privacy,Faragha ya historia
+historyPrivacyMetadata,Metadata only (Recommended),Metadata pekee (inapendekezwa)
+historyPrivacyOptIn,Metadata + Titles,Metadata + vichwa
+diagnosticAlerts,Alert Frequency,Marudio ya arifa
+alertsSilent,Silent Monitoring,Ufuatiliaji kimya
+alertsCriticalOnly,Critical Alerts Only,Arifa muhimu pekee
+alertsAll,All Diagnostic Alerts,Arifa zote za uchunguzi
+sectionAppManagement,Installed Apps,Programu zilizosakinishwa
+sectionAppManagementDesc,Configure individual app monitoring rules,Weka sheria za ufuatiliaji kwa kila programu
+sectionBattery,Battery & Background,Betri na chinichini
+sectionBatteryDesc,Review device battery restrictions & OEM guidance,Kagua vizuizi vya betri na mwongozo wa mtengenezaji
+openBatterySettings,Open Battery Settings,Fungua mipangilio ya betri
+sectionDiagnostics,Diagnostics Engine,Uchunguzi
+runDiagnosticsNow,Run Full Check,Endesha ukaguzi kamili
+sectionPrivacyStorage,Privacy & Local Data,Faragha na data ya ndani
+eventRetention,Event History Retention,Muda wa kuhifadhi historia
+retention1Day,1 Day,Siku 1
+retention7Days,7 Days,Siku 7
+retention30Days,30 Days,Siku 30
+clearHistory,Clear Event Log,Futa kumbukumbu ya matukio
+clearHistoryConfirm,Are you sure you want to clear the notification event history?,Futa historia ya matukio ya arifa?
+resetSettings,Reset Preferences,Weka upya mapendeleo
+resetSettingsConfirm,Reset all NEXGUARD preferences to default values?,Rejesha mapendeleo yote ya NEXGUARD kwa chaguo-msingi?
+cancel,Cancel,Ghairi
+confirm,Confirm,Thibitisha
+save,Save,Hifadhi
+changesSaved,Changes saved,Mabadiliko yamehifadhiwa
+changesNotSaved,Changes could not be saved,Mabadiliko hayajahifadhiwa
+appManagerTitle,Manage Apps,Simamia programu
+searchApps,Search apps...,Tafuta programu...
+filterAll,All,Zote
+filterUser,User,Mtumiaji
+filterSystem,System,Mfumo
+monitoredStatus,Monitored,Inafuatiliwa
+unmonitoredStatus,Excluded,Imetengwa
+openAppNotificationSettings,App Notification Settings,Mipangilio ya arifa ya programu
+openAppDetailsSettings,System App Info,Maelezo ya programu ya mfumo
+appTroubleshootingAdvice,Ensure unrestricted background data and battery usage in system settings for best notification reliability.,"Kwa uaminifu bora, ruhusu data ya chinichini na matumizi ya betri bila kikomo."
+noAppsFound,No applications match your filter,Hakuna programu inayolingana
+diagnosticReportTitle,Diagnostic Results,Matokeo ya uchunguzi
+allChecksPassed,All systems functioning normally,Ukaguzi wote ni wa kawaida
+issuesDetected,Issues detected affecting reliability,Matatizo yanayoathiri uaminifu yamepatikana
+manufacturerGuidance,Device Manufacturer Advice,Mwongozo wa mtengenezaji
+protectionDetailsTitle,Monitoring Status,Hali ya ufuatiliaji
+close,Close,Funga
+startProtection,Start Monitoring,Anza ufuatiliaji
+protectInBackground,Start Monitoring,Anza ufuatiliaji
+stopProtection,Stop Monitoring,Simamisha ufuatiliaji
+protectionStartedNotice,NEXGUARD is now active and monitoring notifications in the background.,NEXGUARD inafanya kazi na inafuatilia arifa chinichini.
+aboutTitle,About,Kuhusu
+aboutVersion,Version,Toleo
+aboutGitHub,Source code,Msimbo wa chanzo
+aboutLicense,License,Leseni
+aboutOpenSource,"Open-source libraries: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines.","Maktaba huria: AndroidX, Jetpack Compose, Room, DataStore, WorkManager, Kotlin Coroutines."
