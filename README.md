@@ -178,7 +178,7 @@ The current release candidate is **v1.0.3**. The signed APK SHA-256 will be publ
 
 ## Version history
 
-- **1.0.3** — wording cleanup, system apps off by default for new installs, backup exclusions, About section.
+- **1.0.3** — wording cleanup, 25 language options with machine-generated translations not yet reviewed by native speakers, system apps off by default for new installs, backup exclusions, About section.
 - **1.0.2** — namespace cleanup, unused Google Services removal, documentation update.
 - **1.0.1** — package name finalized and signed release published.
 - **1.0.0** — first signed release.
