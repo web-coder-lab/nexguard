@@ -29,7 +29,7 @@ OPPO CPH1909, ColorOS 5.2.1, Android 8.1.0.
 
 ## Screenshots
 
-Real screenshots are not included in this repository yet. Do not treat any older image as a current 1.0.3 screenshot.
+Screenshots of version 1.0.3 are on the project website.
 
 WeChat QR: ![WeChat QR](docs/wechat-qr.png)
 
@@ -47,7 +47,7 @@ There is no account system, cloud sync, analytics SDK, or crash-reporting servic
 
 ## Installation
 
-1. Download `NEXGUARD-1.0.3.apk` from the [GitHub Releases](https://github.com/web-coder-lab/nexguard/releases) page after the 1.0.3 release is published.
+1. Download `NEXGUARD-1.0.3.apk` from the [GitHub Releases](https://github.com/web-coder-lab/nexguard/releases) page.
 2. On the phone, allow installation from your browser or file manager if Android asks.
 3. Open the APK and install it.
 4. Open NEXGUARD and grant notification access when prompted.
@@ -67,7 +67,7 @@ Signing certificate SHA-256:
 
 `ea104132b89fcb66aa04e1f8d7390712523c5fae544a8da7e781b085557db17c`
 
-The 1.0.3 APK SHA-256 is not available until the signed release is published.
+APK SHA-256 for 1.0.3: 8cee3237a24da75662ea4f147073bfb4b44293bdba94c038640fb1f26f3ff34d
 
 ## Permissions
 
